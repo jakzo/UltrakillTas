@@ -1,4 +1,6 @@
-﻿using MelonLoader;
+﻿using System;
+using MelonLoader;
+using UnityEngine;
 
 namespace Utas {
 public static class BuildInfo {
@@ -14,5 +16,13 @@ public static class BuildInfo {
 }
 
 public class Mod : MelonMod {
+  const string NAME = "Utas";
+
+  public override void OnSceneWasInitialized(int buildIndex, string sceneName) {
+    if (GameObject.Find(NAME))
+      return;
+    var go = new GameObject(NAME);
+    go.AddComponent<Pauser>();
+  }
 }
 }
