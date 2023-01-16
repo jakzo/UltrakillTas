@@ -11,8 +11,8 @@ public static class BuildInfo {
   public const string DownloadLink =
       "https://ultrakill.thunderstore.io/package/jakzo/UltrakillTas/";
 
-  public const string Developer = "Newblood";
-  public const string GameName = "Ultrakill";
+  public const string Developer = "Hakita";
+  public const string GameName = "ULTRAKILL";
 }
 
 public class Mod : MelonMod {

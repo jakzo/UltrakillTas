@@ -8,7 +8,7 @@ public class Pauser : MonoBehaviour {
   private bool _isPaused;
 
   public void Update() {
-    if (Input.GetKey(KeyCode.P))
+    if (Input.GetKeyDown(KeyCode.P))
       TogglePause();
   }
 
