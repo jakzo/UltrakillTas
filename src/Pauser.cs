@@ -1,8 +1,7 @@
 using System;
-using MelonLoader;
 using UnityEngine;
 
-namespace Utas {
+namespace UnityTas {
 public class Pauser : MonoBehaviour {
   private float _resumeTimeScale;
   private bool _isPaused;
@@ -26,7 +25,7 @@ public class Pauser : MonoBehaviour {
     _resumeTimeScale = Time.timeScale;
     Time.timeScale = 0f;
     AudioListener.pause = true;
-    MelonLogger.Msg("Paused...");
+    Log.Debug("Paused...");
   }
 
   private void Unpause() {
@@ -35,7 +34,7 @@ public class Pauser : MonoBehaviour {
     _isPaused = false;
     Time.timeScale = _resumeTimeScale;
     AudioListener.pause = false;
-    MelonLogger.Msg("Unpaused");
+    Log.Debug("Unpaused");
   }
 }
 }

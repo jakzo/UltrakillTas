@@ -1,0 +1,4763 @@
+game:
+  name: Test Game
+  developer: Test Developer
+state:
+  UnityEditor.Experimental.RenderSettings:
+    static:
+      <useRadianceAmbientProbe>k__BackingField: unknown
+  UnityEngineInternal.GITextureType:
+    static:
+      Charting: unknown
+      Albedo: unknown
+      Emissive: unknown
+      Irradiance: unknown
+      Directionality: unknown
+      Baked: unknown
+      BakedDirectional: unknown
+      InputWorkspace: unknown
+      BakedShadowMask: unknown
+      BakedAlbedo: unknown
+      BakedEmissive: unknown
+      BakedCharting: unknown
+      BakedTexelValidity: unknown
+      BakedUVOverlap: unknown
+      BakedLightmapCulling: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngineInternal.MemorylessMode:
+    static:
+      Unused: unknown
+      Forced: unknown
+      Automatic: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngineInternal.GraphicsDeviceDebugSettings:
+    nonstatic:
+      sleepAtStartOfGraphicsJobs: unknown
+      sleepBeforeTextureUpload: unknown
+  UnityEngineInternal.LightmapType:
+    static:
+      NoLightmap: unknown
+      StaticLightmap: unknown
+      DynamicLightmap: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngineInternal.MathfInternal:
+    static:
+      FloatMinNormal: unknown
+      FloatMinDenormal: unknown
+      IsFlushToZeroEnabled: unknown
+  UnityEngineInternal.TypeInferenceRules:
+    static:
+      TypeReferencedByFirstArgument: unknown
+      TypeReferencedBySecondArgument: unknown
+      ArrayOfTypeReferencedByFirstArgument: unknown
+      TypeOfFirstArgument: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngineInternal.TypeInferenceRuleAttribute:
+    nonstatic:
+      _rule: unknown
+  Unity.Baselib.ErrorState:
+    nonstatic:
+      nativeErrorState: unknown
+  Unity.Baselib.BaselibException:
+    nonstatic:
+      errorState: unknown
+  Unity.Baselib.LowLevel.Binding:
+    static:
+      Baselib_Memory_MaxAlignment: unknown
+      Baselib_Memory_PageAllocation_Invalid: unknown
+      Baselib_NetworkAddress_IpMaxStringLength: unknown
+      Baselib_RegisteredNetwork_Buffer_Id_Invalid: unknown
+      Baselib_RegisteredNetwork_Endpoint_MaxSize: unknown
+      Baselib_RegisteredNetwork_Socket_UDP_Invalid: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_ErrorCode:
+    static:
+      Success: unknown
+      OutOfMemory: unknown
+      OutOfSystemResources: unknown
+      InvalidAddressRange: unknown
+      InvalidArgument: unknown
+      InvalidBufferSize: unknown
+      InvalidState: unknown
+      NotSupported: unknown
+      Timeout: unknown
+      UnsupportedAlignment: unknown
+      InvalidPageSize: unknown
+      InvalidPageCount: unknown
+      UnsupportedPageState: unknown
+      UninitializedThreadConfig: unknown
+      ThreadEntryPointFunctionNotSet: unknown
+      ThreadCannotJoinSelf: unknown
+      NetworkInitializationError: unknown
+      AddressInUse: unknown
+      AddressUnreachable: unknown
+      AddressFamilyNotSupported: unknown
+      UnexpectedError: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_ErrorState_NativeErrorCodeType:
+    static:
+      None: unknown
+      PlatformDefined: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_ErrorState:
+    nonstatic:
+      code: unknown
+      nativeErrorCodeType: unknown
+      nativeErrorCode: unknown
+      sourceLocation: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_ErrorState_ExplainVerbosity:
+    static:
+      ErrorType: unknown
+      ErrorType_SourceLocation_Explanation: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_Memory_PageSizeInfo:
+    nonstatic:
+      defaultPageSize: unknown
+      pageSizes0: unknown
+      pageSizes1: unknown
+      pageSizes2: unknown
+      pageSizes3: unknown
+      pageSizes4: unknown
+      pageSizes5: unknown
+      pageSizesLen: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_Memory_PageAllocation:
+    nonstatic:
+      ptr: unknown
+      pageSize: unknown
+      pageCount: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_Memory_PageState:
+    static:
+      Reserved: unknown
+      NoAccess: unknown
+      ReadOnly: unknown
+      ReadWrite: unknown
+      ReadOnly_Executable: unknown
+      ReadWrite_Executable: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_NetworkAddress_Family:
+    static:
+      Invalid: unknown
+      IPv4: unknown
+      IPv6: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_NetworkAddress:
+    nonstatic:
+      data0: unknown
+      data1: unknown
+      data2: unknown
+      data3: unknown
+      data4: unknown
+      data5: unknown
+      data6: unknown
+      data7: unknown
+      data8: unknown
+      data9: unknown
+      data10: unknown
+      data11: unknown
+      data12: unknown
+      data13: unknown
+      data14: unknown
+      data15: unknown
+      port0: unknown
+      port1: unknown
+      family: unknown
+      _padding: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_NetworkAddress_AddressReuse:
+    static:
+      DoNotAllow: unknown
+      Allow: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_Buffer:
+    nonstatic:
+      id: unknown
+      allocation: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_BufferSlice:
+    nonstatic:
+      id: unknown
+      data: unknown
+      size: unknown
+      offset: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_Endpoint:
+    nonstatic:
+      slice: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_Request:
+    nonstatic:
+      payload: unknown
+      remoteEndpoint: unknown
+      requestUserdata: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_CompletionStatus:
+    static:
+      Failed: unknown
+      Success: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_CompletionResult:
+    nonstatic:
+      status: unknown
+      bytesTransferred: unknown
+      requestUserdata: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_Socket_UDP:
+    nonstatic:
+      handle: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_ProcessStatus:
+    static:
+      Done: unknown
+      Pending: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_RegisteredNetwork_CompletionQueueStatus:
+    static:
+      NoResultsAvailable: unknown
+      ResultsAvailable: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Baselib.LowLevel.Binding+Baselib_SourceLocation:
+    nonstatic:
+      file: unknown
+      function: unknown
+      lineNumber: unknown
+  Unity.Profiling.ProfilerMarker:
+    nonstatic:
+      m_Ptr: unknown
+  Unity.Profiling.ProfilerMarker+AutoScope:
+    nonstatic:
+      m_Ptr: unknown
+  Unity.Profiling.LowLevel.MarkerFlags:
+    static:
+      Default: unknown
+      Script: unknown
+      ScriptInvoke: unknown
+      ScriptDeepProfiler: unknown
+      AvailabilityEditor: unknown
+      Warning: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Profiling.LowLevel.MarkerEventType:
+    static:
+      Begin: unknown
+      End: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Profiling.LowLevel.MarkerEventDataType:
+    static:
+      None: unknown
+      InstanceId: unknown
+      Int32: unknown
+      UInt32: unknown
+      Int64: unknown
+      UInt64: unknown
+      Float: unknown
+      Double: unknown
+      String: unknown
+      String16: unknown
+      Vec3: unknown
+      Blob8: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Profiling.LowLevel.MarkerEventData:
+    nonstatic:
+      type: unknown
+      reserved0: unknown
+      reserved1: unknown
+      size: unknown
+      ptr: unknown
+  Unity.Jobs.IJobExtensions+JobStruct`1:
+    static:
+      jobReflectionData: unknown
+  Unity.Jobs.IJobForExtensions+ForJobStruct`1:
+    static:
+      jobReflectionData: unknown
+  Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1:
+    static:
+      jobReflectionData: unknown
+  Unity.Jobs.JobHandle:
+    nonstatic:
+      jobGroup: unknown
+      version: unknown
+  Unity.Jobs.LowLevel.Unsafe.BatchQueryJob`2:
+    nonstatic:
+      commands: unknown
+      results: unknown
+  Unity.Jobs.LowLevel.Unsafe.BatchQueryJobStruct`1:
+    static:
+      jobReflectionData: unknown
+  Unity.Jobs.LowLevel.Unsafe.JobProducerTypeAttribute:
+    nonstatic:
+      <ProducerType>k__BackingField: unknown
+  Unity.Jobs.LowLevel.Unsafe.JobRanges:
+    nonstatic:
+      BatchSize: unknown
+      NumJobs: unknown
+      TotalIterationCount: unknown
+      NumPhases: unknown
+      StartEndIndex: unknown
+      PhaseData: unknown
+  Unity.Jobs.LowLevel.Unsafe.ScheduleMode:
+    static:
+      Run: unknown
+      Batched: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Jobs.LowLevel.Unsafe.JobType:
+    static:
+      Single: unknown
+      ParallelFor: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Jobs.LowLevel.Unsafe.JobsUtility:
+    static:
+      MaxJobThreadCount: unknown
+      CacheLineSize: unknown
+  Unity.Jobs.LowLevel.Unsafe.JobsUtility+JobScheduleParameters:
+    nonstatic:
+      Dependency: unknown
+      ScheduleMode: unknown
+      ReflectionData: unknown
+      JobDataPtr: unknown
+  Unity.IO.LowLevel.Unsafe.ReadCommand:
+    nonstatic:
+      Buffer: unknown
+      Offset: unknown
+      Size: unknown
+  Unity.IO.LowLevel.Unsafe.ReadStatus:
+    static:
+      Complete: unknown
+      InProgress: unknown
+      Failed: unknown
+    nonstatic:
+      value__: unknown
+  Unity.IO.LowLevel.Unsafe.ReadHandle:
+    nonstatic:
+      ptr: unknown
+      version: unknown
+  Unity.Collections.NativeFixedLengthAttribute:
+    nonstatic:
+      FixedLength: unknown
+  Unity.Collections.Allocator:
+    static:
+      Invalid: unknown
+      None: unknown
+      Temp: unknown
+      TempJob: unknown
+      Persistent: unknown
+      AudioKernel: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Collections.NativeLeakDetectionMode:
+    static:
+      EnabledWithStackTrace: unknown
+      Enabled: unknown
+      Disabled: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Collections.NativeLeakDetection:
+    static:
+      s_NativeLeakDetectionMode: unknown
+      kNativeLeakDetectionModePrefsString: unknown
+  Unity.Collections.NativeArrayOptions:
+    static:
+      UninitializedMemory: unknown
+      ClearMemory: unknown
+    nonstatic:
+      value__: unknown
+  Unity.Collections.NativeArray`1:
+    nonstatic:
+      m_Buffer: unknown
+      m_Length: unknown
+      m_AllocatorLabel: unknown
+  Unity.Collections.NativeArray`1+DisposeJob:
+    nonstatic:
+      Container: unknown
+  Unity.Collections.NativeArray`1+Enumerator:
+    nonstatic:
+      m_Array: unknown
+      m_Index: unknown
+  Unity.Collections.NativeArrayDebugView`1:
+    nonstatic:
+      m_Array: unknown
+  Unity.Collections.NativeSlice`1:
+    nonstatic:
+      m_Buffer: unknown
+      m_Stride: unknown
+      m_Length: unknown
+  Unity.Collections.NativeSlice`1+Enumerator:
+    nonstatic:
+      m_Array: unknown
+      m_Index: unknown
+  Unity.Collections.NativeSliceDebugView`1:
+    nonstatic:
+      m_Array: unknown
+  Unity.Collections.LowLevel.Unsafe.UnsafeUtility+IsUnmanagedCache`1:
+    static:
+      value: unknown
+  Unity.Collections.LowLevel.Unsafe.UnsafeUtility+IsValidNativeContainerElementTypeCache`1:
+    static:
+      value: unknown
+  Unity.Collections.LowLevel.Unsafe.UnsafeUtility+AlignOfHelper`1:
+    nonstatic:
+      dummy: unknown
+      data: unknown
+  JetBrains.Annotations.StringFormatMethodAttribute:
+    nonstatic:
+      <FormatParameterName>k__BackingField: unknown
+  JetBrains.Annotations.ValueProviderAttribute:
+    nonstatic:
+      <Name>k__BackingField: unknown
+  JetBrains.Annotations.NotifyPropertyChangedInvocatorAttribute:
+    nonstatic:
+      <ParameterName>k__BackingField: unknown
+  JetBrains.Annotations.ContractAnnotationAttribute:
+    nonstatic:
+      <Contract>k__BackingField: unknown
+      <ForceFullStates>k__BackingField: unknown
+  JetBrains.Annotations.LocalizationRequiredAttribute:
+    nonstatic:
+      <Required>k__BackingField: unknown
+  JetBrains.Annotations.BaseTypeRequiredAttribute:
+    nonstatic:
+      <BaseType>k__BackingField: unknown
+  JetBrains.Annotations.UsedImplicitlyAttribute:
+    nonstatic:
+      <UseKindFlags>k__BackingField: unknown
+      <TargetFlags>k__BackingField: unknown
+  JetBrains.Annotations.MeansImplicitUseAttribute:
+    nonstatic:
+      <UseKindFlags>k__BackingField: unknown
+      <TargetFlags>k__BackingField: unknown
+  JetBrains.Annotations.ImplicitUseKindFlags:
+    static:
+      Default: unknown
+      Access: unknown
+      Assign: unknown
+      InstantiatedWithFixedConstructorSignature: unknown
+      InstantiatedNoFixedConstructorSignature: unknown
+    nonstatic:
+      value__: unknown
+  JetBrains.Annotations.ImplicitUseTargetFlags:
+    static:
+      Default: unknown
+      Itself: unknown
+      Members: unknown
+      WithMembers: unknown
+    nonstatic:
+      value__: unknown
+  JetBrains.Annotations.PublicAPIAttribute:
+    nonstatic:
+      <Comment>k__BackingField: unknown
+  JetBrains.Annotations.MustUseReturnValueAttribute:
+    nonstatic:
+      <Justification>k__BackingField: unknown
+  JetBrains.Annotations.PathReferenceAttribute:
+    nonstatic:
+      <BasePath>k__BackingField: unknown
+  JetBrains.Annotations.MacroAttribute:
+    nonstatic:
+      <Expression>k__BackingField: unknown
+      <Editable>k__BackingField: unknown
+      <Target>k__BackingField: unknown
+  JetBrains.Annotations.CollectionAccessAttribute:
+    nonstatic:
+      <CollectionAccessType>k__BackingField: unknown
+  JetBrains.Annotations.CollectionAccessType:
+    static:
+      None: unknown
+      Read: unknown
+      ModifyExistingContent: unknown
+      UpdatedContent: unknown
+    nonstatic:
+      value__: unknown
+  JetBrains.Annotations.AssertionConditionAttribute:
+    nonstatic:
+      <ConditionType>k__BackingField: unknown
+  JetBrains.Annotations.AssertionConditionType:
+    static:
+      IS_TRUE: unknown
+      IS_FALSE: unknown
+      IS_NULL: unknown
+      IS_NOT_NULL: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SendMessageOptions:
+    static:
+      RequireReceiver: unknown
+      DontRequireReceiver: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.PrimitiveType:
+    static:
+      Sphere: unknown
+      Capsule: unknown
+      Cylinder: unknown
+      Cube: unknown
+      Plane: unknown
+      Quad: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Space:
+    static:
+      World: unknown
+      Self: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RuntimePlatform:
+    static:
+      OSXEditor: unknown
+      OSXPlayer: unknown
+      WindowsPlayer: unknown
+      OSXWebPlayer: unknown
+      OSXDashboardPlayer: unknown
+      WindowsWebPlayer: unknown
+      WindowsEditor: unknown
+      IPhonePlayer: unknown
+      XBOX360: unknown
+      PS3: unknown
+      Android: unknown
+      NaCl: unknown
+      FlashPlayer: unknown
+      LinuxPlayer: unknown
+      LinuxEditor: unknown
+      WebGLPlayer: unknown
+      MetroPlayerX86: unknown
+      WSAPlayerX86: unknown
+      MetroPlayerX64: unknown
+      WSAPlayerX64: unknown
+      MetroPlayerARM: unknown
+      WSAPlayerARM: unknown
+      WP8Player: unknown
+      BlackBerryPlayer: unknown
+      TizenPlayer: unknown
+      PSP2: unknown
+      PS4: unknown
+      PSM: unknown
+      XboxOne: unknown
+      SamsungTVPlayer: unknown
+      WiiU: unknown
+      tvOS: unknown
+      Switch: unknown
+      Lumin: unknown
+      Stadia: unknown
+      CloudRendering: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SystemLanguage:
+    static:
+      Afrikaans: unknown
+      Arabic: unknown
+      Basque: unknown
+      Belarusian: unknown
+      Bulgarian: unknown
+      Catalan: unknown
+      Chinese: unknown
+      Czech: unknown
+      Danish: unknown
+      Dutch: unknown
+      English: unknown
+      Estonian: unknown
+      Faroese: unknown
+      Finnish: unknown
+      French: unknown
+      German: unknown
+      Greek: unknown
+      Hebrew: unknown
+      Icelandic: unknown
+      Indonesian: unknown
+      Italian: unknown
+      Japanese: unknown
+      Korean: unknown
+      Latvian: unknown
+      Lithuanian: unknown
+      Norwegian: unknown
+      Polish: unknown
+      Portuguese: unknown
+      Romanian: unknown
+      Russian: unknown
+      SerboCroatian: unknown
+      Slovak: unknown
+      Slovenian: unknown
+      Spanish: unknown
+      Swedish: unknown
+      Thai: unknown
+      Turkish: unknown
+      Ukrainian: unknown
+      Vietnamese: unknown
+      ChineseSimplified: unknown
+      ChineseTraditional: unknown
+      Unknown: unknown
+      Hungarian: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LogType:
+    static:
+      Error: unknown
+      Assert: unknown
+      Warning: unknown
+      Log: unknown
+      Exception: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LogOption:
+    static:
+      None: unknown
+      NoStacktrace: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ThreadPriority:
+    static:
+      Low: unknown
+      BelowNormal: unknown
+      Normal: unknown
+      High: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SortingLayer:
+    nonstatic:
+      m_Id: unknown
+  UnityEngine.WeightedMode:
+    static:
+      None: unknown
+      In: unknown
+      Out: unknown
+      Both: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Keyframe:
+    nonstatic:
+      m_Time: unknown
+      m_Value: unknown
+      m_InTangent: unknown
+      m_OutTangent: unknown
+      m_WeightedMode: unknown
+      m_InWeight: unknown
+      m_OutWeight: unknown
+  UnityEngine.WrapMode:
+    static:
+      Once: unknown
+      Loop: unknown
+      PingPong: unknown
+      Default: unknown
+      ClampForever: unknown
+      Clamp: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.AnimationCurve:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Application:
+    static:
+      lowMemory: unknown
+      s_LogCallbackHandler: unknown
+      s_LogCallbackHandlerThreaded: unknown
+      OnAdvertisingIdentifierCallback: unknown
+      focusChanged: unknown
+      deepLinkActivated: unknown
+      wantsToQuit: unknown
+      quitting: unknown
+      s_RegisterLogCallbackDeprecated: unknown
+  UnityEngine.StackTraceLogType:
+    static:
+      None: unknown
+      ScriptOnly: unknown
+      Full: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.NetworkReachability:
+    static:
+      NotReachable: unknown
+      ReachableViaCarrierDataNetwork: unknown
+      ReachableViaLocalAreaNetwork: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.UserAuthorization:
+    static:
+      WebCam: unknown
+      Microphone: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ApplicationInstallMode:
+    static:
+      Unknown: unknown
+      Store: unknown
+      DeveloperBuild: unknown
+      Adhoc: unknown
+      Enterprise: unknown
+      Editor: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ApplicationSandboxType:
+    static:
+      Unknown: unknown
+      NotSandboxed: unknown
+      Sandboxed: unknown
+      SandboxBroken: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.AudioType:
+    static:
+      UNKNOWN: unknown
+      ACC: unknown
+      AIFF: unknown
+      IT: unknown
+      MOD: unknown
+      MPEG: unknown
+      OGGVORBIS: unknown
+      S3M: unknown
+      WAV: unknown
+      XM: unknown
+      XMA: unknown
+      VAG: unknown
+      AUDIOQUEUE: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.BootConfigData:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.CachedAssetBundle:
+    nonstatic:
+      m_Name: unknown
+      m_Hash: unknown
+  UnityEngine.Cache:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.CacheIndex:
+    nonstatic:
+      name: unknown
+      bytesUsed: unknown
+      expires: unknown
+  UnityEngine.Camera:
+    static:
+      onPreCull: unknown
+      onPreRender: unknown
+      onPostRender: unknown
+  UnityEngine.Camera+ProjectionMatrixMode:
+    static:
+      Explicit: unknown
+      Implicit: unknown
+      PhysicalPropertiesBased: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Camera+GateFitMode:
+    static:
+      Vertical: unknown
+      Horizontal: unknown
+      Fill: unknown
+      Overscan: unknown
+      None: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Camera+FieldOfViewAxis:
+    static:
+      Vertical: unknown
+      Horizontal: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Camera+GateFitParameters:
+    nonstatic:
+      <mode>k__BackingField: unknown
+      <aspect>k__BackingField: unknown
+  UnityEngine.Camera+StereoscopicEye:
+    static:
+      Left: unknown
+      Right: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Camera+MonoOrStereoscopicEye:
+    static:
+      Left: unknown
+      Right: unknown
+      Mono: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.BoundingSphere:
+    nonstatic:
+      position: unknown
+      radius: unknown
+  UnityEngine.CullingQueryOptions:
+    static:
+      Normal: unknown
+      IgnoreVisibility: unknown
+      IgnoreDistance: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CullingGroupEvent:
+    static:
+      kIsVisibleMask: unknown
+      kDistanceMask: unknown
+    nonstatic:
+      m_Index: unknown
+      m_PrevState: unknown
+      m_ThisState: unknown
+  UnityEngine.CullingGroup:
+    nonstatic:
+      m_Ptr: unknown
+      m_OnStateChanged: unknown
+  UnityEngine.ReflectionProbe:
+    static:
+      reflectionProbeChanged: unknown
+      defaultReflectionSet: unknown
+  UnityEngine.ReflectionProbe+ReflectionProbeEvent:
+    static:
+      ReflectionProbeAdded: unknown
+      ReflectionProbeRemoved: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CrashReport:
+    static:
+      internalReports: unknown
+      reportsLock: unknown
+    nonstatic:
+      id: unknown
+      time: unknown
+      text: unknown
+  UnityEngine.Debug:
+    static:
+      s_Logger: unknown
+  UnityEngine.DiagnosticSwitchFlags:
+    static:
+      None: unknown
+      CanChangeAfterEngineStart: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.DiagnosticSwitch:
+    nonstatic:
+      name: unknown
+      description: unknown
+      flags: unknown
+      value: unknown
+      minValue: unknown
+      maxValue: unknown
+      persistentValue: unknown
+      enumInfo: unknown
+  UnityEngine.ExposedPropertyResolver:
+    nonstatic:
+      table: unknown
+  UnityEngine.ExposedReference`1:
+    nonstatic:
+      exposedName: unknown
+      defaultValue: unknown
+  UnityEngine.Bounds:
+    nonstatic:
+      m_Center: unknown
+      m_Extents: unknown
+  UnityEngine.BoundsInt:
+    nonstatic:
+      m_Position: unknown
+      m_Size: unknown
+  UnityEngine.BoundsInt+PositionEnumerator:
+    nonstatic:
+      _min: unknown
+      _max: unknown
+      _current: unknown
+  UnityEngine.Plane:
+    static:
+      size: unknown
+    nonstatic:
+      m_Normal: unknown
+      m_Distance: unknown
+  UnityEngine.Ray:
+    nonstatic:
+      m_Origin: unknown
+      m_Direction: unknown
+  UnityEngine.Ray2D:
+    nonstatic:
+      m_Origin: unknown
+      m_Direction: unknown
+  UnityEngine.Rect:
+    nonstatic:
+      m_XMin: unknown
+      m_YMin: unknown
+      m_Width: unknown
+      m_Height: unknown
+  UnityEngine.RectInt:
+    nonstatic:
+      m_XMin: unknown
+      m_YMin: unknown
+      m_Width: unknown
+      m_Height: unknown
+  UnityEngine.RectInt+PositionEnumerator:
+    nonstatic:
+      _min: unknown
+      _max: unknown
+      _current: unknown
+  UnityEngine.RectOffset:
+    nonstatic:
+      m_Ptr: unknown
+      m_SourceStyle: unknown
+  UnityEngine.BeforeRenderOrderAttribute:
+    nonstatic:
+      <order>k__BackingField: unknown
+  UnityEngine.BeforeRenderHelper:
+    static:
+      s_OrderBlocks: unknown
+  UnityEngine.BeforeRenderHelper+OrderBlock:
+    nonstatic:
+      order: unknown
+      callback: unknown
+  UnityEngine.Display:
+    static:
+      displays: unknown
+      _mainDisplay: unknown
+      onDisplaysUpdated: unknown
+    nonstatic:
+      nativeDisplay: unknown
+  UnityEngine.EnabledOrientation:
+    static:
+      kAutorotateToPortrait: unknown
+      kAutorotateToPortraitUpsideDown: unknown
+      kAutorotateToLandscapeLeft: unknown
+      kAutorotateToLandscapeRight: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.FullScreenMode:
+    static:
+      ExclusiveFullScreen: unknown
+      FullScreenWindow: unknown
+      MaximizedWindow: unknown
+      Windowed: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SleepTimeout:
+    static:
+      NeverSleep: unknown
+      SystemSetting: unknown
+  UnityEngine.RenderBuffer:
+    nonstatic:
+      m_RenderTextureInstanceID: unknown
+      m_BufferPtr: unknown
+  UnityEngine.ComputeBufferMode:
+    static:
+      Immutable: unknown
+      Dynamic: unknown
+      Circular: unknown
+      StreamOut: unknown
+      SubUpdates: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Graphics:
+    static:
+      kMaxDrawMeshInstanceCount: unknown
+  UnityEngine.GL:
+    static:
+      TRIANGLES: unknown
+      TRIANGLE_STRIP: unknown
+      QUADS: unknown
+      LINES: unknown
+      LINE_STRIP: unknown
+  UnityEngine.FrameTiming:
+    nonstatic:
+      cpuTimePresentCalled: unknown
+      cpuFrameTime: unknown
+      cpuTimeFrameComplete: unknown
+      gpuFrameTime: unknown
+      heightScale: unknown
+      widthScale: unknown
+      syncInterval: unknown
+  UnityEngine.LightmapData:
+    nonstatic:
+      m_Light: unknown
+      m_Dir: unknown
+      m_ShadowMask: unknown
+  UnityEngine.D3DHDRDisplayBitDepth:
+    static:
+      D3DHDRDisplayBitDepth10: unknown
+      D3DHDRDisplayBitDepth16: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Resolution:
+    nonstatic:
+      m_Width: unknown
+      m_Height: unknown
+      m_RefreshRate: unknown
+  UnityEngine.RenderTargetSetup:
+    nonstatic:
+      color: unknown
+      depth: unknown
+      mipLevel: unknown
+      cubemapFace: unknown
+      depthSlice: unknown
+      colorLoad: unknown
+      colorStore: unknown
+      depthLoad: unknown
+      depthStore: unknown
+  UnityEngine.Internal_DrawTextureArguments:
+    nonstatic:
+      screenRect: unknown
+      sourceRect: unknown
+      leftBorder: unknown
+      rightBorder: unknown
+      topBorder: unknown
+      bottomBorder: unknown
+      leftBorderColor: unknown
+      rightBorderColor: unknown
+      topBorderColor: unknown
+      bottomBorderColor: unknown
+      color: unknown
+      borderWidths: unknown
+      cornerRadiuses: unknown
+      smoothCorners: unknown
+      pass: unknown
+      texture: unknown
+      mat: unknown
+  UnityEngine.LightmapsModeLegacy:
+    static:
+      Single: unknown
+      Dual: unknown
+      Directional: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.MaterialPropertyBlock:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.GraphicsBuffer:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.GraphicsBuffer+Target:
+    static:
+      Index: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightBakingOutput:
+    nonstatic:
+      probeOcclusionLightIndex: unknown
+      occlusionMaskChannel: unknown
+      lightmapBakeType: unknown
+      mixedLightingMode: unknown
+      isBaked: unknown
+  UnityEngine.LightShadowCasterMode:
+    static:
+      Default: unknown
+      NonLightmappedOnly: unknown
+      Everything: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Light:
+    nonstatic:
+      m_BakedIndex: unknown
+  UnityEngine.RenderingPath:
+    static:
+      UsePlayerSettings: unknown
+      VertexLit: unknown
+      Forward: unknown
+      DeferredLighting: unknown
+      DeferredShading: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TransparencySortMode:
+    static:
+      Default: unknown
+      Perspective: unknown
+      Orthographic: unknown
+      CustomAxis: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.StereoTargetEyeMask:
+    static:
+      None: unknown
+      Left: unknown
+      Right: unknown
+      Both: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CameraType:
+    static:
+      Game: unknown
+      SceneView: unknown
+      Preview: unknown
+      VR: unknown
+      Reflection: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ComputeBufferType:
+    static:
+      Default: unknown
+      Raw: unknown
+      Append: unknown
+      Counter: unknown
+      Constant: unknown
+      Structured: unknown
+      DrawIndirect: unknown
+      IndirectArguments: unknown
+      GPUMemory: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightType:
+    static:
+      Spot: unknown
+      Directional: unknown
+      Point: unknown
+      Area: unknown
+      Rectangle: unknown
+      Disc: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightShape:
+    static:
+      Cone: unknown
+      Pyramid: unknown
+      Box: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightRenderMode:
+    static:
+      Auto: unknown
+      ForcePixel: unknown
+      ForceVertex: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightShadows:
+    static:
+      None: unknown
+      Hard: unknown
+      Soft: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.FogMode:
+    static:
+      Linear: unknown
+      Exponential: unknown
+      ExponentialSquared: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightmapBakeType:
+    static:
+      Realtime: unknown
+      Baked: unknown
+      Mixed: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.MixedLightingMode:
+    static:
+      IndirectOnly: unknown
+      Shadowmask: unknown
+      Subtractive: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ReceiveGI:
+    static:
+      Lightmaps: unknown
+      LightProbes: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.QualityLevel:
+    static:
+      Fastest: unknown
+      Fast: unknown
+      Simple: unknown
+      Good: unknown
+      Beautiful: unknown
+      Fantastic: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ShadowProjection:
+    static:
+      CloseFit: unknown
+      StableFit: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ShadowQuality:
+    static:
+      Disable: unknown
+      HardOnly: unknown
+      All: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ShadowResolution:
+    static:
+      Low: unknown
+      Medium: unknown
+      High: unknown
+      VeryHigh: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ShadowmaskMode:
+    static:
+      Shadowmask: unknown
+      DistanceShadowmask: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CameraClearFlags:
+    static:
+      Skybox: unknown
+      Color: unknown
+      SolidColor: unknown
+      Depth: unknown
+      Nothing: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.DepthTextureMode:
+    static:
+      None: unknown
+      Depth: unknown
+      DepthNormals: unknown
+      MotionVectors: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TexGenMode:
+    static:
+      None: unknown
+      SphereMap: unknown
+      Object: unknown
+      EyeLinear: unknown
+      CubeReflect: unknown
+      CubeNormal: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.AnisotropicFiltering:
+    static:
+      Disable: unknown
+      Enable: unknown
+      ForceEnable: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.BlendWeights:
+    static:
+      OneBone: unknown
+      TwoBones: unknown
+      FourBones: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SkinWeights:
+    static:
+      OneBone: unknown
+      TwoBones: unknown
+      FourBones: unknown
+      Unlimited: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.MeshTopology:
+    static:
+      Triangles: unknown
+      Quads: unknown
+      Lines: unknown
+      LineStrip: unknown
+      Points: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SkinQuality:
+    static:
+      Auto: unknown
+      Bone1: unknown
+      Bone2: unknown
+      Bone4: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ColorSpace:
+    static:
+      Uninitialized: unknown
+      Gamma: unknown
+      Linear: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ColorGamut:
+    static:
+      sRGB: unknown
+      Rec709: unknown
+      Rec2020: unknown
+      DisplayP3: unknown
+      HDR10: unknown
+      DolbyHDR: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ScreenOrientation:
+    static:
+      Unknown: unknown
+      Portrait: unknown
+      PortraitUpsideDown: unknown
+      LandscapeLeft: unknown
+      LandscapeRight: unknown
+      AutoRotation: unknown
+      Landscape: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.FilterMode:
+    static:
+      Point: unknown
+      Bilinear: unknown
+      Trilinear: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TextureWrapMode:
+    static:
+      Repeat: unknown
+      Clamp: unknown
+      Mirror: unknown
+      MirrorOnce: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.NPOTSupport:
+    static:
+      None: unknown
+      Restricted: unknown
+      Full: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TextureFormat:
+    static:
+      Alpha8: unknown
+      ARGB4444: unknown
+      RGB24: unknown
+      RGBA32: unknown
+      ARGB32: unknown
+      RGB565: unknown
+      R16: unknown
+      DXT1: unknown
+      DXT5: unknown
+      RGBA4444: unknown
+      BGRA32: unknown
+      RHalf: unknown
+      RGHalf: unknown
+      RGBAHalf: unknown
+      RFloat: unknown
+      RGFloat: unknown
+      RGBAFloat: unknown
+      YUY2: unknown
+      RGB9e5Float: unknown
+      BC4: unknown
+      BC5: unknown
+      BC6H: unknown
+      BC7: unknown
+      DXT1Crunched: unknown
+      DXT5Crunched: unknown
+      PVRTC_RGB2: unknown
+      PVRTC_RGBA2: unknown
+      PVRTC_RGB4: unknown
+      PVRTC_RGBA4: unknown
+      ETC_RGB4: unknown
+      EAC_R: unknown
+      EAC_R_SIGNED: unknown
+      EAC_RG: unknown
+      EAC_RG_SIGNED: unknown
+      ETC2_RGB: unknown
+      ETC2_RGBA1: unknown
+      ETC2_RGBA8: unknown
+      ASTC_4x4: unknown
+      ASTC_5x5: unknown
+      ASTC_6x6: unknown
+      ASTC_8x8: unknown
+      ASTC_10x10: unknown
+      ASTC_12x12: unknown
+      ETC_RGB4_3DS: unknown
+      ETC_RGBA8_3DS: unknown
+      RG16: unknown
+      R8: unknown
+      ETC_RGB4Crunched: unknown
+      ETC2_RGBA8Crunched: unknown
+      ASTC_HDR_4x4: unknown
+      ASTC_HDR_5x5: unknown
+      ASTC_HDR_6x6: unknown
+      ASTC_HDR_8x8: unknown
+      ASTC_HDR_10x10: unknown
+      ASTC_HDR_12x12: unknown
+      ASTC_RGB_4x4: unknown
+      ASTC_RGB_5x5: unknown
+      ASTC_RGB_6x6: unknown
+      ASTC_RGB_8x8: unknown
+      ASTC_RGB_10x10: unknown
+      ASTC_RGB_12x12: unknown
+      ASTC_RGBA_4x4: unknown
+      ASTC_RGBA_5x5: unknown
+      ASTC_RGBA_6x6: unknown
+      ASTC_RGBA_8x8: unknown
+      ASTC_RGBA_10x10: unknown
+      ASTC_RGBA_12x12: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CubemapFace:
+    static:
+      Unknown: unknown
+      PositiveX: unknown
+      NegativeX: unknown
+      PositiveY: unknown
+      NegativeY: unknown
+      PositiveZ: unknown
+      NegativeZ: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RenderTextureFormat:
+    static:
+      ARGB32: unknown
+      Depth: unknown
+      ARGBHalf: unknown
+      Shadowmap: unknown
+      RGB565: unknown
+      ARGB4444: unknown
+      ARGB1555: unknown
+      Default: unknown
+      ARGB2101010: unknown
+      DefaultHDR: unknown
+      ARGB64: unknown
+      ARGBFloat: unknown
+      RGFloat: unknown
+      RGHalf: unknown
+      RFloat: unknown
+      RHalf: unknown
+      R8: unknown
+      ARGBInt: unknown
+      RGInt: unknown
+      RInt: unknown
+      BGRA32: unknown
+      RGB111110Float: unknown
+      RG32: unknown
+      RGBAUShort: unknown
+      RG16: unknown
+      BGRA10101010_XR: unknown
+      BGR101010_XR: unknown
+      R16: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.VRTextureUsage:
+    static:
+      None: unknown
+      OneEye: unknown
+      TwoEyes: unknown
+      DeviceSpecific: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RenderTextureCreationFlags:
+    static:
+      MipMap: unknown
+      AutoGenerateMips: unknown
+      SRGB: unknown
+      EyeTexture: unknown
+      EnableRandomWrite: unknown
+      CreatedFromScript: unknown
+      AllowVerticalFlip: unknown
+      NoResolvedColorSurface: unknown
+      DynamicallyScalable: unknown
+      BindMS: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RenderTextureReadWrite:
+    static:
+      Default: unknown
+      Linear: unknown
+      sRGB: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RenderTextureMemoryless:
+    static:
+      None: unknown
+      Color: unknown
+      Depth: unknown
+      MSAA: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightmapsMode:
+    static:
+      NonDirectional: unknown
+      CombinedDirectional: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.MaterialGlobalIlluminationFlags:
+    static:
+      None: unknown
+      RealtimeEmissive: unknown
+      BakedEmissive: unknown
+      EmissiveIsBlack: unknown
+      AnyEmissive: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightProbeProxyVolume+ResolutionMode:
+    static:
+      Automatic: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightProbeProxyVolume+BoundingBoxMode:
+    static:
+      AutomaticLocal: unknown
+      AutomaticWorld: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightProbeProxyVolume+ProbePositionMode:
+    static:
+      CellCorner: unknown
+      CellCenter: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightProbeProxyVolume+RefreshMode:
+    static:
+      Automatic: unknown
+      EveryFrame: unknown
+      ViaScripting: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LightProbeProxyVolume+QualityMode:
+    static:
+      Low: unknown
+      Normal: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CustomRenderTextureInitializationSource:
+    static:
+      TextureAndColor: unknown
+      Material: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CustomRenderTextureUpdateMode:
+    static:
+      OnLoad: unknown
+      Realtime: unknown
+      OnDemand: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CustomRenderTextureUpdateZoneSpace:
+    static:
+      Normalized: unknown
+      Pixel: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.MotionVectorGenerationMode:
+    static:
+      Camera: unknown
+      Object: unknown
+      ForceNoMotion: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LineTextureMode:
+    static:
+      Stretch: unknown
+      Tile: unknown
+      DistributePerSegment: unknown
+      RepeatPerSegment: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LineAlignment:
+    static:
+      View: unknown
+      Local: unknown
+      TransformZ: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LODFadeMode:
+    static:
+      None: unknown
+      CrossFade: unknown
+      SpeedTree: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LOD:
+    nonstatic:
+      screenRelativeTransitionHeight: unknown
+      fadeTransitionWidth: unknown
+      renderers: unknown
+  UnityEngine.BoneWeight:
+    nonstatic:
+      m_Weight0: unknown
+      m_Weight1: unknown
+      m_Weight2: unknown
+      m_Weight3: unknown
+      m_BoneIndex0: unknown
+      m_BoneIndex1: unknown
+      m_BoneIndex2: unknown
+      m_BoneIndex3: unknown
+  UnityEngine.BoneWeight1:
+    nonstatic:
+      m_Weight: unknown
+      m_BoneIndex: unknown
+  UnityEngine.CombineInstance:
+    nonstatic:
+      m_MeshInstanceID: unknown
+      m_SubMeshIndex: unknown
+      m_Transform: unknown
+      m_LightmapScaleOffset: unknown
+      m_RealtimeLightmapScaleOffset: unknown
+  UnityEngine.Texture:
+    static:
+      GenerateAllMips: unknown
+  UnityEngine.Texture2D+EXRFlags:
+    static:
+      None: unknown
+      OutputAsFloat: unknown
+      CompressZIP: unknown
+      CompressRLE: unknown
+      CompressPIZ: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CustomRenderTextureUpdateZone:
+    nonstatic:
+      updateZoneCenter: unknown
+      updateZoneSize: unknown
+      rotation: unknown
+      passIndex: unknown
+      needSwap: unknown
+  UnityEngine.RenderTextureDescriptor:
+    static:
+      depthFormatBits: unknown
+    nonstatic:
+      <width>k__BackingField: unknown
+      <height>k__BackingField: unknown
+      <msaaSamples>k__BackingField: unknown
+      <volumeDepth>k__BackingField: unknown
+      <mipCount>k__BackingField: unknown
+      _graphicsFormat: unknown
+      <stencilFormat>k__BackingField: unknown
+      _depthBufferBits: unknown
+      <dimension>k__BackingField: unknown
+      <shadowSamplingMode>k__BackingField: unknown
+      <vrUsage>k__BackingField: unknown
+      _flags: unknown
+      <memoryless>k__BackingField: unknown
+  UnityEngine.Hash128:
+    nonstatic:
+      m_u32_0: unknown
+      m_u32_1: unknown
+      m_u32_2: unknown
+      m_u32_3: unknown
+  UnityEngine.SpookyHash:
+    static:
+      AllowUnalignedRead: unknown
+      k_NumVars: unknown
+      k_BlockSize: unknown
+      k_BufferSize: unknown
+      k_DeadBeefConst: unknown
+  UnityEngine.SpookyHash+U:
+    nonstatic:
+      p8: unknown
+      p32: unknown
+      p64: unknown
+      i: unknown
+  UnityEngine.ScrollWaitDefinitions:
+    static:
+      firstWait: unknown
+      regularWait: unknown
+  UnityEngine.CursorMode:
+    static:
+      Auto: unknown
+      ForceSoftware: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.CursorLockMode:
+    static:
+      None: unknown
+      Locked: unknown
+      Confined: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.KeyCode:
+    static:
+      None: unknown
+      Backspace: unknown
+      Delete: unknown
+      Tab: unknown
+      Clear: unknown
+      Return: unknown
+      Pause: unknown
+      Escape: unknown
+      Space: unknown
+      Keypad0: unknown
+      Keypad1: unknown
+      Keypad2: unknown
+      Keypad3: unknown
+      Keypad4: unknown
+      Keypad5: unknown
+      Keypad6: unknown
+      Keypad7: unknown
+      Keypad8: unknown
+      Keypad9: unknown
+      KeypadPeriod: unknown
+      KeypadDivide: unknown
+      KeypadMultiply: unknown
+      KeypadMinus: unknown
+      KeypadPlus: unknown
+      KeypadEnter: unknown
+      KeypadEquals: unknown
+      UpArrow: unknown
+      DownArrow: unknown
+      RightArrow: unknown
+      LeftArrow: unknown
+      Insert: unknown
+      Home: unknown
+      End: unknown
+      PageUp: unknown
+      PageDown: unknown
+      F1: unknown
+      F2: unknown
+      F3: unknown
+      F4: unknown
+      F5: unknown
+      F6: unknown
+      F7: unknown
+      F8: unknown
+      F9: unknown
+      F10: unknown
+      F11: unknown
+      F12: unknown
+      F13: unknown
+      F14: unknown
+      F15: unknown
+      Alpha0: unknown
+      Alpha1: unknown
+      Alpha2: unknown
+      Alpha3: unknown
+      Alpha4: unknown
+      Alpha5: unknown
+      Alpha6: unknown
+      Alpha7: unknown
+      Alpha8: unknown
+      Alpha9: unknown
+      Exclaim: unknown
+      DoubleQuote: unknown
+      Hash: unknown
+      Dollar: unknown
+      Percent: unknown
+      Ampersand: unknown
+      Quote: unknown
+      LeftParen: unknown
+      RightParen: unknown
+      Asterisk: unknown
+      Plus: unknown
+      Comma: unknown
+      Minus: unknown
+      Period: unknown
+      Slash: unknown
+      Colon: unknown
+      Semicolon: unknown
+      Less: unknown
+      Equals: unknown
+      Greater: unknown
+      Question: unknown
+      At: unknown
+      LeftBracket: unknown
+      Backslash: unknown
+      RightBracket: unknown
+      Caret: unknown
+      Underscore: unknown
+      BackQuote: unknown
+      A: unknown
+      B: unknown
+      C: unknown
+      D: unknown
+      E: unknown
+      F: unknown
+      G: unknown
+      H: unknown
+      I: unknown
+      J: unknown
+      K: unknown
+      L: unknown
+      M: unknown
+      N: unknown
+      O: unknown
+      P: unknown
+      Q: unknown
+      R: unknown
+      S: unknown
+      T: unknown
+      U: unknown
+      V: unknown
+      W: unknown
+      X: unknown
+      Y: unknown
+      Z: unknown
+      LeftCurlyBracket: unknown
+      Pipe: unknown
+      RightCurlyBracket: unknown
+      Tilde: unknown
+      Numlock: unknown
+      CapsLock: unknown
+      ScrollLock: unknown
+      RightShift: unknown
+      LeftShift: unknown
+      RightControl: unknown
+      LeftControl: unknown
+      RightAlt: unknown
+      LeftAlt: unknown
+      LeftCommand: unknown
+      LeftApple: unknown
+      LeftWindows: unknown
+      RightCommand: unknown
+      RightApple: unknown
+      RightWindows: unknown
+      AltGr: unknown
+      Help: unknown
+      Print: unknown
+      SysReq: unknown
+      Break: unknown
+      Menu: unknown
+      Mouse0: unknown
+      Mouse1: unknown
+      Mouse2: unknown
+      Mouse3: unknown
+      Mouse4: unknown
+      Mouse5: unknown
+      Mouse6: unknown
+      JoystickButton0: unknown
+      JoystickButton1: unknown
+      JoystickButton2: unknown
+      JoystickButton3: unknown
+      JoystickButton4: unknown
+      JoystickButton5: unknown
+      JoystickButton6: unknown
+      JoystickButton7: unknown
+      JoystickButton8: unknown
+      JoystickButton9: unknown
+      JoystickButton10: unknown
+      JoystickButton11: unknown
+      JoystickButton12: unknown
+      JoystickButton13: unknown
+      JoystickButton14: unknown
+      JoystickButton15: unknown
+      JoystickButton16: unknown
+      JoystickButton17: unknown
+      JoystickButton18: unknown
+      JoystickButton19: unknown
+      Joystick1Button0: unknown
+      Joystick1Button1: unknown
+      Joystick1Button2: unknown
+      Joystick1Button3: unknown
+      Joystick1Button4: unknown
+      Joystick1Button5: unknown
+      Joystick1Button6: unknown
+      Joystick1Button7: unknown
+      Joystick1Button8: unknown
+      Joystick1Button9: unknown
+      Joystick1Button10: unknown
+      Joystick1Button11: unknown
+      Joystick1Button12: unknown
+      Joystick1Button13: unknown
+      Joystick1Button14: unknown
+      Joystick1Button15: unknown
+      Joystick1Button16: unknown
+      Joystick1Button17: unknown
+      Joystick1Button18: unknown
+      Joystick1Button19: unknown
+      Joystick2Button0: unknown
+      Joystick2Button1: unknown
+      Joystick2Button2: unknown
+      Joystick2Button3: unknown
+      Joystick2Button4: unknown
+      Joystick2Button5: unknown
+      Joystick2Button6: unknown
+      Joystick2Button7: unknown
+      Joystick2Button8: unknown
+      Joystick2Button9: unknown
+      Joystick2Button10: unknown
+      Joystick2Button11: unknown
+      Joystick2Button12: unknown
+      Joystick2Button13: unknown
+      Joystick2Button14: unknown
+      Joystick2Button15: unknown
+      Joystick2Button16: unknown
+      Joystick2Button17: unknown
+      Joystick2Button18: unknown
+      Joystick2Button19: unknown
+      Joystick3Button0: unknown
+      Joystick3Button1: unknown
+      Joystick3Button2: unknown
+      Joystick3Button3: unknown
+      Joystick3Button4: unknown
+      Joystick3Button5: unknown
+      Joystick3Button6: unknown
+      Joystick3Button7: unknown
+      Joystick3Button8: unknown
+      Joystick3Button9: unknown
+      Joystick3Button10: unknown
+      Joystick3Button11: unknown
+      Joystick3Button12: unknown
+      Joystick3Button13: unknown
+      Joystick3Button14: unknown
+      Joystick3Button15: unknown
+      Joystick3Button16: unknown
+      Joystick3Button17: unknown
+      Joystick3Button18: unknown
+      Joystick3Button19: unknown
+      Joystick4Button0: unknown
+      Joystick4Button1: unknown
+      Joystick4Button2: unknown
+      Joystick4Button3: unknown
+      Joystick4Button4: unknown
+      Joystick4Button5: unknown
+      Joystick4Button6: unknown
+      Joystick4Button7: unknown
+      Joystick4Button8: unknown
+      Joystick4Button9: unknown
+      Joystick4Button10: unknown
+      Joystick4Button11: unknown
+      Joystick4Button12: unknown
+      Joystick4Button13: unknown
+      Joystick4Button14: unknown
+      Joystick4Button15: unknown
+      Joystick4Button16: unknown
+      Joystick4Button17: unknown
+      Joystick4Button18: unknown
+      Joystick4Button19: unknown
+      Joystick5Button0: unknown
+      Joystick5Button1: unknown
+      Joystick5Button2: unknown
+      Joystick5Button3: unknown
+      Joystick5Button4: unknown
+      Joystick5Button5: unknown
+      Joystick5Button6: unknown
+      Joystick5Button7: unknown
+      Joystick5Button8: unknown
+      Joystick5Button9: unknown
+      Joystick5Button10: unknown
+      Joystick5Button11: unknown
+      Joystick5Button12: unknown
+      Joystick5Button13: unknown
+      Joystick5Button14: unknown
+      Joystick5Button15: unknown
+      Joystick5Button16: unknown
+      Joystick5Button17: unknown
+      Joystick5Button18: unknown
+      Joystick5Button19: unknown
+      Joystick6Button0: unknown
+      Joystick6Button1: unknown
+      Joystick6Button2: unknown
+      Joystick6Button3: unknown
+      Joystick6Button4: unknown
+      Joystick6Button5: unknown
+      Joystick6Button6: unknown
+      Joystick6Button7: unknown
+      Joystick6Button8: unknown
+      Joystick6Button9: unknown
+      Joystick6Button10: unknown
+      Joystick6Button11: unknown
+      Joystick6Button12: unknown
+      Joystick6Button13: unknown
+      Joystick6Button14: unknown
+      Joystick6Button15: unknown
+      Joystick6Button16: unknown
+      Joystick6Button17: unknown
+      Joystick6Button18: unknown
+      Joystick6Button19: unknown
+      Joystick7Button0: unknown
+      Joystick7Button1: unknown
+      Joystick7Button2: unknown
+      Joystick7Button3: unknown
+      Joystick7Button4: unknown
+      Joystick7Button5: unknown
+      Joystick7Button6: unknown
+      Joystick7Button7: unknown
+      Joystick7Button8: unknown
+      Joystick7Button9: unknown
+      Joystick7Button10: unknown
+      Joystick7Button11: unknown
+      Joystick7Button12: unknown
+      Joystick7Button13: unknown
+      Joystick7Button14: unknown
+      Joystick7Button15: unknown
+      Joystick7Button16: unknown
+      Joystick7Button17: unknown
+      Joystick7Button18: unknown
+      Joystick7Button19: unknown
+      Joystick8Button0: unknown
+      Joystick8Button1: unknown
+      Joystick8Button2: unknown
+      Joystick8Button3: unknown
+      Joystick8Button4: unknown
+      Joystick8Button5: unknown
+      Joystick8Button6: unknown
+      Joystick8Button7: unknown
+      Joystick8Button8: unknown
+      Joystick8Button9: unknown
+      Joystick8Button10: unknown
+      Joystick8Button11: unknown
+      Joystick8Button12: unknown
+      Joystick8Button13: unknown
+      Joystick8Button14: unknown
+      Joystick8Button15: unknown
+      Joystick8Button16: unknown
+      Joystick8Button17: unknown
+      Joystick8Button18: unknown
+      Joystick8Button19: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Logger:
+    static:
+      kNoTagFormat: unknown
+      kTagFormat: unknown
+    nonstatic:
+      <logHandler>k__BackingField: unknown
+      <logEnabled>k__BackingField: unknown
+      <filterLogType>k__BackingField: unknown
+  UnityEngine.Color:
+    nonstatic:
+      r: unknown
+      g: unknown
+      b: unknown
+      a: unknown
+  UnityEngine.Color32:
+    nonstatic:
+      rgba: unknown
+      r: unknown
+      g: unknown
+      b: unknown
+      a: unknown
+  UnityEngine.GradientColorKey:
+    nonstatic:
+      color: unknown
+      time: unknown
+  UnityEngine.GradientAlphaKey:
+    nonstatic:
+      alpha: unknown
+      time: unknown
+  UnityEngine.GradientMode:
+    static:
+      Blend: unknown
+      Fixed: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Gradient:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.FrustumPlanes:
+    nonstatic:
+      left: unknown
+      right: unknown
+      bottom: unknown
+      top: unknown
+      zNear: unknown
+      zFar: unknown
+  UnityEngine.Matrix4x4:
+    static:
+      zeroMatrix: unknown
+      identityMatrix: unknown
+    nonstatic:
+      m00: unknown
+      m10: unknown
+      m20: unknown
+      m30: unknown
+      m01: unknown
+      m11: unknown
+      m21: unknown
+      m31: unknown
+      m02: unknown
+      m12: unknown
+      m22: unknown
+      m32: unknown
+      m03: unknown
+      m13: unknown
+      m23: unknown
+      m33: unknown
+  UnityEngine.Vector3:
+    static:
+      kEpsilon: unknown
+      kEpsilonNormalSqrt: unknown
+      zeroVector: unknown
+      oneVector: unknown
+      upVector: unknown
+      downVector: unknown
+      leftVector: unknown
+      rightVector: unknown
+      forwardVector: unknown
+      backVector: unknown
+      positiveInfinityVector: unknown
+      negativeInfinityVector: unknown
+    nonstatic:
+      x: unknown
+      y: unknown
+      z: unknown
+  UnityEngine.Quaternion:
+    static:
+      identityQuaternion: unknown
+      kEpsilon: unknown
+    nonstatic:
+      x: unknown
+      y: unknown
+      z: unknown
+      w: unknown
+  UnityEngine.Mathf:
+    static:
+      PI: unknown
+      Infinity: unknown
+      NegativeInfinity: unknown
+      Deg2Rad: unknown
+      Rad2Deg: unknown
+      Epsilon: unknown
+  UnityEngine.Vector2:
+    static:
+      zeroVector: unknown
+      oneVector: unknown
+      upVector: unknown
+      downVector: unknown
+      leftVector: unknown
+      rightVector: unknown
+      positiveInfinityVector: unknown
+      negativeInfinityVector: unknown
+      kEpsilon: unknown
+      kEpsilonNormalSqrt: unknown
+    nonstatic:
+      x: unknown
+      y: unknown
+  UnityEngine.Vector2Int:
+    static:
+      s_Zero: unknown
+      s_One: unknown
+      s_Up: unknown
+      s_Down: unknown
+      s_Left: unknown
+      s_Right: unknown
+    nonstatic:
+      m_X: unknown
+      m_Y: unknown
+  UnityEngine.Vector3Int:
+    static:
+      s_Zero: unknown
+      s_One: unknown
+      s_Up: unknown
+      s_Down: unknown
+      s_Left: unknown
+      s_Right: unknown
+    nonstatic:
+      m_X: unknown
+      m_Y: unknown
+      m_Z: unknown
+  UnityEngine.Vector4:
+    static:
+      kEpsilon: unknown
+      zeroVector: unknown
+      oneVector: unknown
+      positiveInfinityVector: unknown
+      negativeInfinityVector: unknown
+    nonstatic:
+      x: unknown
+      y: unknown
+      z: unknown
+      w: unknown
+  UnityEngine.Ping:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.PropertyAttribute:
+    nonstatic:
+      <order>k__BackingField: unknown
+  UnityEngine.ContextMenuItemAttribute:
+    nonstatic:
+      name: unknown
+      function: unknown
+  UnityEngine.InspectorNameAttribute:
+    nonstatic:
+      displayName: unknown
+  UnityEngine.TooltipAttribute:
+    nonstatic:
+      tooltip: unknown
+  UnityEngine.SpaceAttribute:
+    nonstatic:
+      height: unknown
+  UnityEngine.HeaderAttribute:
+    nonstatic:
+      header: unknown
+  UnityEngine.RangeAttribute:
+    nonstatic:
+      min: unknown
+      max: unknown
+  UnityEngine.MinAttribute:
+    nonstatic:
+      min: unknown
+  UnityEngine.MultilineAttribute:
+    nonstatic:
+      lines: unknown
+  UnityEngine.TextAreaAttribute:
+    nonstatic:
+      minLines: unknown
+      maxLines: unknown
+  UnityEngine.ColorUsageAttribute:
+    nonstatic:
+      showAlpha: unknown
+      hdr: unknown
+      minBrightness: unknown
+      maxBrightness: unknown
+      minExposureValue: unknown
+      maxExposureValue: unknown
+  UnityEngine.GradientUsageAttribute:
+    nonstatic:
+      hdr: unknown
+  UnityEngine.PropertyName:
+    nonstatic:
+      id: unknown
+  UnityEngine.Random+State:
+    nonstatic:
+      s0: unknown
+      s1: unknown
+      s2: unknown
+      s3: unknown
+  UnityEngine.ResourceRequest:
+    nonstatic:
+      m_Path: unknown
+      m_Type: unknown
+  UnityEngine.AsyncOperation:
+    nonstatic:
+      m_Ptr: unknown
+      m_completeCallback: unknown
+  UnityEngine.RequireComponent:
+    nonstatic:
+      m_Type0: unknown
+      m_Type1: unknown
+      m_Type2: unknown
+  UnityEngine.AddComponentMenu:
+    nonstatic:
+      m_AddComponentMenu: unknown
+      m_Ordering: unknown
+  UnityEngine.CreateAssetMenuAttribute:
+    nonstatic:
+      <menuName>k__BackingField: unknown
+      <fileName>k__BackingField: unknown
+      <order>k__BackingField: unknown
+  UnityEngine.ContextMenu:
+    nonstatic:
+      menuItem: unknown
+      validate: unknown
+      priority: unknown
+  UnityEngine.HelpURLAttribute:
+    nonstatic:
+      m_Url: unknown
+  UnityEngine.DefaultExecutionOrder:
+    nonstatic:
+      m_Order: unknown
+  UnityEngine.CastHelper`1:
+    nonstatic:
+      t: unknown
+      onePointerFurtherThanT: unknown
+  UnityEngine.Coroutine:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.EnumInfo:
+    nonstatic:
+      names: unknown
+      values: unknown
+      annotations: unknown
+      isFlags: unknown
+  UnityEngine.LayerMask:
+    nonstatic:
+      m_Mask: unknown
+  UnityEngine.LazyLoadReference`1:
+    static:
+      kInstanceID_None: unknown
+    nonstatic:
+      m_InstanceID: unknown
+  UnityEngine.RangeInt:
+    nonstatic:
+      start: unknown
+      length: unknown
+  UnityEngine.RuntimeInitializeLoadType:
+    static:
+      AfterSceneLoad: unknown
+      BeforeSceneLoad: unknown
+      AfterAssembliesLoaded: unknown
+      BeforeSplashScreen: unknown
+      SubsystemRegistration: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RuntimeInitializeOnLoadMethodAttribute:
+    nonstatic:
+      m_LoadType: unknown
+  UnityEngine.ScriptingUtility+TestClass:
+    nonstatic:
+      value: unknown
+  UnityEngine.StackTraceUtility:
+    static:
+      projectFolder: unknown
+  UnityEngine.UnityException:
+    static:
+      Result: unknown
+    nonstatic:
+      unityStackTrace: unknown
+  UnityEngine.MissingComponentException:
+    static:
+      Result: unknown
+    nonstatic:
+      unityStackTrace: unknown
+  UnityEngine.UnassignedReferenceException:
+    static:
+      Result: unknown
+    nonstatic:
+      unityStackTrace: unknown
+  UnityEngine.MissingReferenceException:
+    static:
+      Result: unknown
+    nonstatic:
+      unityStackTrace: unknown
+  UnityEngine.TextAsset+CreateOptions:
+    static:
+      None: unknown
+      CreateNativeObject: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TrackedReference:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.UnhandledExceptionHandler+<>c:
+    static:
+      <>9: unknown
+      <>9__0_0: unknown
+  UnityEngine.UnityAPICompatibilityVersionAttribute:
+    nonstatic:
+      _version: unknown
+      _configurationAssembliesHashes: unknown
+  UnityEngine.HideFlags:
+    static:
+      None: unknown
+      HideInHierarchy: unknown
+      HideInInspector: unknown
+      DontSaveInEditor: unknown
+      NotEditable: unknown
+      DontSaveInBuild: unknown
+      DontUnloadUnusedAsset: unknown
+      DontSave: unknown
+      HideAndDontSave: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Object:
+    static:
+      OffsetOfInstanceIDInCPlusPlusObject: unknown
+      objectIsNullMessage: unknown
+      cloneDestroyedMessage: unknown
+    nonstatic:
+      m_CachedPtr: unknown
+  UnityEngine.UnitySynchronizationContext:
+    static:
+      kAwqInitialCapacity: unknown
+    nonstatic:
+      m_AsyncWorkQueue: unknown
+      m_CurrentFrameWork: unknown
+      m_MainThreadID: unknown
+      m_TrackedCount: unknown
+  UnityEngine.UnitySynchronizationContext+WorkRequest:
+    nonstatic:
+      m_DelagateCallback: unknown
+      m_DelagateState: unknown
+      m_WaitHandle: unknown
+  UnityEngine.WaitForSeconds:
+    nonstatic:
+      m_Seconds: unknown
+  UnityEngine.WaitForSecondsRealtime:
+    nonstatic:
+      <waitTime>k__BackingField: unknown
+      m_WaitUntilTime: unknown
+  UnityEngine.WaitUntil:
+    nonstatic:
+      m_Predicate: unknown
+  UnityEngine.WaitWhile:
+    nonstatic:
+      m_Predicate: unknown
+  UnityEngine.ComputeBuffer:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.DisableBatchingType:
+    static:
+      False: unknown
+      True: unknown
+      WhenLODFading: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.ShaderVariantCollection+ShaderVariant:
+    nonstatic:
+      shader: unknown
+      passType: unknown
+      keywords: unknown
+  UnityEngine.SnapAxis:
+    static:
+      None: unknown
+      X: unknown
+      Y: unknown
+      Z: unknown
+      All: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SnapAxisFilter:
+    static:
+      X: unknown
+      Y: unknown
+      Z: unknown
+      all: unknown
+    nonstatic:
+      m_Mask: unknown
+  UnityEngine.InternalStaticBatchingUtility:
+    static:
+      MaxVerticesInBatch: unknown
+      CombinedMeshPrefix: unknown
+  UnityEngine.InternalStaticBatchingUtility+<>c__DisplayClass4_0:
+    nonstatic:
+      sorter: unknown
+  UnityEngine.InternalStaticBatchingUtility+<>c:
+    static:
+      <>9: unknown
+      <>9__5_0: unknown
+  UnityEngine.MeshSubsetCombineUtility+MeshInstance:
+    nonstatic:
+      meshInstanceID: unknown
+      rendererInstanceID: unknown
+      additionalVertexStreamsMeshInstanceID: unknown
+      transform: unknown
+      lightmapScaleOffset: unknown
+      realtimeLightmapScaleOffset: unknown
+  UnityEngine.MeshSubsetCombineUtility+SubMeshInstance:
+    nonstatic:
+      meshInstanceID: unknown
+      vertexOffset: unknown
+      gameObjectInstanceID: unknown
+      subMeshIndex: unknown
+      transform: unknown
+  UnityEngine.MeshSubsetCombineUtility+MeshContainer:
+    nonstatic:
+      gameObject: unknown
+      instance: unknown
+      subMeshInstances: unknown
+  UnityEngine.BatteryStatus:
+    static:
+      Unknown: unknown
+      Charging: unknown
+      Discharging: unknown
+      NotCharging: unknown
+      Full: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.OperatingSystemFamily:
+    static:
+      Other: unknown
+      MacOSX: unknown
+      Windows: unknown
+      Linux: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.DeviceType:
+    static:
+      Unknown: unknown
+      Handheld: unknown
+      Console: unknown
+      Desktop: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SystemInfo:
+    static:
+      unsupportedIdentifier: unknown
+  UnityEngine.SystemClock:
+    static:
+      s_Epoch: unknown
+  UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments:
+    nonstatic:
+      keyboardType: unknown
+      autocorrection: unknown
+      multiline: unknown
+      secure: unknown
+      alert: unknown
+      characterLimit: unknown
+  UnityEngine.TouchScreenKeyboard:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.TouchScreenKeyboard+Status:
+    static:
+      Visible: unknown
+      Done: unknown
+      Canceled: unknown
+      LostFocus: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.TouchScreenKeyboardType:
+    static:
+      Default: unknown
+      ASCIICapable: unknown
+      NumbersAndPunctuation: unknown
+      URL: unknown
+      NumberPad: unknown
+      PhonePad: unknown
+      NamePhonePad: unknown
+      EmailAddress: unknown
+      NintendoNetworkAccount: unknown
+      Social: unknown
+      Search: unknown
+      DecimalPad: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Pose:
+    static:
+      k_Identity: unknown
+    nonstatic:
+      position: unknown
+      rotation: unknown
+  UnityEngine.DrivenTransformProperties:
+    static:
+      None: unknown
+      All: unknown
+      AnchoredPositionX: unknown
+      AnchoredPositionY: unknown
+      AnchoredPositionZ: unknown
+      Rotation: unknown
+      ScaleX: unknown
+      ScaleY: unknown
+      ScaleZ: unknown
+      AnchorMinX: unknown
+      AnchorMinY: unknown
+      AnchorMaxX: unknown
+      AnchorMaxY: unknown
+      SizeDeltaX: unknown
+      SizeDeltaY: unknown
+      PivotX: unknown
+      PivotY: unknown
+      AnchoredPosition: unknown
+      AnchoredPosition3D: unknown
+      Scale: unknown
+      AnchorMin: unknown
+      AnchorMax: unknown
+      Anchors: unknown
+      SizeDelta: unknown
+      Pivot: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RectTransform:
+    static:
+      reapplyDrivenProperties: unknown
+  UnityEngine.RectTransform+Edge:
+    static:
+      Left: unknown
+      Right: unknown
+      Top: unknown
+      Bottom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RectTransform+Axis:
+    static:
+      Horizontal: unknown
+      Vertical: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.RotationOrder:
+    static:
+      OrderXYZ: unknown
+      OrderXZY: unknown
+      OrderYZX: unknown
+      OrderYXZ: unknown
+      OrderZXY: unknown
+      OrderZYX: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Transform+Enumerator:
+    nonstatic:
+      outer: unknown
+      currentIndex: unknown
+  UnityEngine.SpriteDrawMode:
+    static:
+      Simple: unknown
+      Sliced: unknown
+      Tiled: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpriteTileMode:
+    static:
+      Continuous: unknown
+      Adaptive: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpriteMaskInteraction:
+    static:
+      None: unknown
+      VisibleInsideMask: unknown
+      VisibleOutsideMask: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpriteMeshType:
+    static:
+      FullRect: unknown
+      Tight: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpriteAlignment:
+    static:
+      Center: unknown
+      TopLeft: unknown
+      TopCenter: unknown
+      TopRight: unknown
+      LeftCenter: unknown
+      RightCenter: unknown
+      BottomLeft: unknown
+      BottomCenter: unknown
+      BottomRight: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpritePackingMode:
+    static:
+      Tight: unknown
+      Rectangle: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpritePackingRotation:
+    static:
+      None: unknown
+      FlipHorizontal: unknown
+      FlipVertical: unknown
+      Rotate180: unknown
+      Any: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SpriteSortPoint:
+    static:
+      Center: unknown
+      Pivot: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SecondarySpriteTexture:
+    nonstatic:
+      name: unknown
+      texture: unknown
+  UnityEngine.U2D.SpriteBone:
+    nonstatic:
+      m_Name: unknown
+      m_Position: unknown
+      m_Rotation: unknown
+      m_Length: unknown
+      m_ParentId: unknown
+  UnityEngine.U2D.SpriteChannelInfo:
+    nonstatic:
+      m_Buffer: unknown
+      m_Count: unknown
+      m_Offset: unknown
+      m_Stride: unknown
+  UnityEngine.U2D.SpriteAtlasManager:
+    static:
+      atlasRequested: unknown
+      atlasRegistered: unknown
+  UnityEngine.Profiling.ProfilerArea:
+    static:
+      CPU: unknown
+      GPU: unknown
+      Rendering: unknown
+      Memory: unknown
+      Audio: unknown
+      Video: unknown
+      Physics: unknown
+      Physics2D: unknown
+      NetworkMessages: unknown
+      NetworkOperations: unknown
+      UI: unknown
+      UIDetails: unknown
+      GlobalIllumination: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Profiling.Profiler:
+    static:
+      invalidProfilerArea: unknown
+  UnityEngine.Profiling.Recorder:
+    static:
+      s_InvalidRecorder: unknown
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Profiling.Sampler:
+    static:
+      s_InvalidSampler: unknown
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Profiling.CustomSampler:
+    static:
+      s_InvalidCustomSampler: unknown
+  UnityEngine.Profiling.Experimental.DebugScreenCapture:
+    nonstatic:
+      <rawImageDataReference>k__BackingField: unknown
+      <imageFormat>k__BackingField: unknown
+      <width>k__BackingField: unknown
+      <height>k__BackingField: unknown
+  UnityEngine.Profiling.Memory.Experimental.CaptureFlags:
+    static:
+      ManagedObjects: unknown
+      NativeObjects: unknown
+      NativeAllocations: unknown
+      NativeAllocationSites: unknown
+      NativeStackTraces: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Profiling.Memory.Experimental.MetaData:
+    nonstatic:
+      content: unknown
+      platform: unknown
+      <screenshot>k__BackingField: unknown
+  UnityEngine.Profiling.Memory.Experimental.MemoryProfiler:
+    static:
+      m_SnapshotFinished: unknown
+      m_SaveScreenshotToDisk: unknown
+      createMetaData: unknown
+  UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1:
+    static:
+      jobReflectionData: unknown
+  UnityEngine.Jobs.TransformAccess:
+    nonstatic:
+      hierarchy: unknown
+      index: unknown
+  UnityEngine.Jobs.TransformAccessArray:
+    nonstatic:
+      m_TransformArray: unknown
+  UnityEngine.Windows.Speech.PhraseRecognitionSystem:
+    static:
+      OnError: unknown
+      OnStatusChanged: unknown
+  UnityEngine.Windows.Speech.PhraseRecognizer:
+    nonstatic:
+      m_Recognizer: unknown
+      OnPhraseRecognized: unknown
+  UnityEngine.Windows.Speech.DictationRecognizer:
+    nonstatic:
+      m_Recognizer: unknown
+      DictationHypothesis: unknown
+      DictationResult: unknown
+      DictationComplete: unknown
+      DictationError: unknown
+  UnityEngine.Windows.Speech.ConfidenceLevel:
+    static:
+      High: unknown
+      Medium: unknown
+      Low: unknown
+      Rejected: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.Speech.SpeechSystemStatus:
+    static:
+      Stopped: unknown
+      Running: unknown
+      Failed: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.Speech.SpeechError:
+    static:
+      NoError: unknown
+      TopicLanguageNotSupported: unknown
+      GrammarLanguageMismatch: unknown
+      GrammarCompilationFailure: unknown
+      AudioQualityFailure: unknown
+      PauseLimitExceeded: unknown
+      TimeoutExceeded: unknown
+      NetworkFailure: unknown
+      MicrophoneUnavailable: unknown
+      UnknownError: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.Speech.DictationTopicConstraint:
+    static:
+      WebSearch: unknown
+      Form: unknown
+      Dictation: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.Speech.DictationCompletionCause:
+    static:
+      Complete: unknown
+      AudioQualityFailure: unknown
+      Canceled: unknown
+      TimeoutExceeded: unknown
+      PauseLimitExceeded: unknown
+      NetworkFailure: unknown
+      MicrophoneUnavailable: unknown
+      UnknownError: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.Speech.SemanticMeaning:
+    nonstatic:
+      key: unknown
+      values: unknown
+  UnityEngine.Windows.Speech.PhraseRecognizedEventArgs:
+    nonstatic:
+      confidence: unknown
+      semanticMeanings: unknown
+      text: unknown
+      phraseStartTime: unknown
+      phraseDuration: unknown
+  UnityEngine.Windows.Speech.KeywordRecognizer:
+    nonstatic:
+      <Keywords>k__BackingField: unknown
+  UnityEngine.Windows.Speech.GrammarRecognizer:
+    nonstatic:
+      <GrammarFilePath>k__BackingField: unknown
+  UnityEngine.Windows.WebCam.PhotoCaptureFileOutputFormat:
+    static:
+      PNG: unknown
+      JPG: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.PhotoCapture:
+    static:
+      s_SupportedResolutions: unknown
+      HR_SUCCESS: unknown
+    nonstatic:
+      m_NativePtr: unknown
+  UnityEngine.Windows.WebCam.PhotoCapture+CaptureResultType:
+    static:
+      Success: unknown
+      UnknownError: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.PhotoCapture+PhotoCaptureResult:
+    nonstatic:
+      resultType: unknown
+      hResult: unknown
+  UnityEngine.Windows.WebCam.PhotoCaptureFrame:
+    nonstatic:
+      m_NativePtr: unknown
+      <dataLength>k__BackingField: unknown
+      <hasLocationData>k__BackingField: unknown
+      <pixelFormat>k__BackingField: unknown
+  UnityEngine.Windows.WebCam.VideoCapture:
+    static:
+      s_SupportedResolutions: unknown
+      HR_SUCCESS: unknown
+    nonstatic:
+      m_NativePtr: unknown
+  UnityEngine.Windows.WebCam.VideoCapture+CaptureResultType:
+    static:
+      Success: unknown
+      UnknownError: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.VideoCapture+AudioState:
+    static:
+      MicAudio: unknown
+      ApplicationAudio: unknown
+      ApplicationAndMicAudio: unknown
+      None: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.VideoCapture+VideoCaptureResult:
+    nonstatic:
+      resultType: unknown
+      hResult: unknown
+  UnityEngine.Windows.WebCam.CapturePixelFormat:
+    static:
+      BGRA32: unknown
+      NV12: unknown
+      JPEG: unknown
+      PNG: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.WebCamMode:
+    static:
+      None: unknown
+      PhotoMode: unknown
+      VideoMode: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Windows.WebCam.CameraParameters:
+    nonstatic:
+      m_HologramOpacity: unknown
+      m_FrameRate: unknown
+      m_CameraResolutionWidth: unknown
+      m_CameraResolutionHeight: unknown
+      m_PixelFormat: unknown
+  UnityEngine.Windows.WebCam.CameraParameters+<>c:
+    static:
+      <>9: unknown
+      <>9__20_0: unknown
+      <>9__20_1: unknown
+      <>9__20_2: unknown
+  UnityEngine.Events.PersistentListenerMode:
+    static:
+      EventDefined: unknown
+      Void: unknown
+      Object: unknown
+      Int: unknown
+      Float: unknown
+      String: unknown
+      Bool: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Events.ArgumentCache:
+    nonstatic:
+      m_ObjectArgument: unknown
+      m_ObjectArgumentAssemblyTypeName: unknown
+      m_IntArgument: unknown
+      m_FloatArgument: unknown
+      m_StringArgument: unknown
+      m_BoolArgument: unknown
+  UnityEngine.Events.InvokableCall:
+    nonstatic:
+      Delegate: unknown
+  UnityEngine.Events.InvokableCall`1:
+    nonstatic:
+      Delegate: unknown
+  UnityEngine.Events.InvokableCall`2:
+    nonstatic:
+      Delegate: unknown
+  UnityEngine.Events.InvokableCall`3:
+    nonstatic:
+      Delegate: unknown
+  UnityEngine.Events.InvokableCall`4:
+    nonstatic:
+      Delegate: unknown
+  UnityEngine.Events.CachedInvokableCall`1:
+    nonstatic:
+      m_Arg1: unknown
+  UnityEngine.Events.UnityEventCallState:
+    static:
+      Off: unknown
+      EditorAndRuntime: unknown
+      RuntimeOnly: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Events.PersistentCall:
+    nonstatic:
+      m_Target: unknown
+      m_MethodName: unknown
+      m_Mode: unknown
+      m_Arguments: unknown
+      m_CallState: unknown
+  UnityEngine.Events.PersistentCallGroup:
+    nonstatic:
+      m_Calls: unknown
+  UnityEngine.Events.InvokableCallList:
+    nonstatic:
+      m_PersistentCalls: unknown
+      m_RuntimeCalls: unknown
+      m_ExecutingCalls: unknown
+      m_NeedsUpdate: unknown
+  UnityEngine.Events.UnityEventBase:
+    nonstatic:
+      m_Calls: unknown
+      m_PersistentCalls: unknown
+      m_CallsDirty: unknown
+  UnityEngine.Events.UnityEvent:
+    nonstatic:
+      m_InvokeArray: unknown
+  UnityEngine.Events.UnityEvent`1:
+    nonstatic:
+      m_InvokeArray: unknown
+  UnityEngine.Events.UnityEvent`2:
+    nonstatic:
+      m_InvokeArray: unknown
+  UnityEngine.Events.UnityEvent`3:
+    nonstatic:
+      m_InvokeArray: unknown
+  UnityEngine.Events.UnityEvent`4:
+    nonstatic:
+      m_InvokeArray: unknown
+  UnityEngine.Serialization.FormerlySerializedAsAttribute:
+    nonstatic:
+      m_oldName: unknown
+  UnityEngine.Serialization.ListSerializationSurrogate:
+    static:
+      Default: unknown
+  UnityEngine.Scripting.GarbageCollector:
+    static:
+      GCModeChanged: unknown
+  UnityEngine.Scripting.GarbageCollector+Mode:
+    static:
+      Disabled: unknown
+      Enabled: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Scripting.APIUpdating.MovedFromAttributeData:
+    nonstatic:
+      className: unknown
+      nameSpace: unknown
+      assembly: unknown
+      classHasChanged: unknown
+      nameSpaceHasChanged: unknown
+      assemblyHasChanged: unknown
+      autoUdpateAPI: unknown
+  UnityEngine.Scripting.APIUpdating.MovedFromAttribute:
+    nonstatic:
+      data: unknown
+  UnityEngine.SceneManagement.Scene:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.SceneManagement.Scene+LoadingState:
+    static:
+      NotLoaded: unknown
+      Loading: unknown
+      Loaded: unknown
+      Unloading: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SceneManagement.SceneManager:
+    static:
+      s_AllowLoadScene: unknown
+      sceneLoaded: unknown
+      sceneUnloaded: unknown
+      activeSceneChanged: unknown
+  UnityEngine.SceneManagement.LoadSceneMode:
+    static:
+      Single: unknown
+      Additive: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SceneManagement.LocalPhysicsMode:
+    static:
+      None: unknown
+      Physics2D: unknown
+      Physics3D: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.SceneManagement.LoadSceneParameters:
+    nonstatic:
+      m_LoadSceneMode: unknown
+      m_LocalPhysicsMode: unknown
+  UnityEngine.SceneManagement.CreateSceneParameters:
+    nonstatic:
+      m_LocalPhysicsMode: unknown
+  UnityEngine.SceneManagement.UnloadSceneOptions:
+    static:
+      None: unknown
+      UnloadAllEmbeddedSceneObjects: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.LowLevel.PlayerLoopSystemInternal:
+    nonstatic:
+      type: unknown
+      updateDelegate: unknown
+      updateFunction: unknown
+      loopConditionFunction: unknown
+      numSubSystems: unknown
+  UnityEngine.LowLevel.PlayerLoopSystem:
+    nonstatic:
+      type: unknown
+      subSystemList: unknown
+      updateDelegate: unknown
+      updateFunction: unknown
+      loopConditionFunction: unknown
+  UnityEngine.Networking.PlayerConnection.MessageEventArgs:
+    nonstatic:
+      playerId: unknown
+      data: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerConnection:
+    static:
+      connectionNative: unknown
+      s_Instance: unknown
+    nonstatic:
+      m_PlayerEditorConnectionEvents: unknown
+      m_connectedPlayers: unknown
+      m_IsInitilized: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerConnection+<>c__DisplayClass12_0:
+    nonstatic:
+      messageId: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerConnection+<>c__DisplayClass13_0:
+    nonstatic:
+      messageId: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerConnection+<>c__DisplayClass20_0:
+    nonstatic:
+      msgReceived: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents:
+    nonstatic:
+      messageTypeSubscribers: unknown
+      connectionEvent: unknown
+      disconnectionEvent: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents+MessageTypeSubscribers:
+    nonstatic:
+      m_messageTypeId: unknown
+      subscriberCount: unknown
+      messageCallback: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents+<>c__DisplayClass6_0:
+    nonstatic:
+      messageId: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents+<>c__DisplayClass7_0:
+    nonstatic:
+      messageId: unknown
+  UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents+<>c__DisplayClass8_0:
+    nonstatic:
+      messageId: unknown
+  UnityEngine.Lumin.UsesLuminPlatformLevelAttribute:
+    nonstatic:
+      m_PlatformLevel: unknown
+  UnityEngine.Lumin.UsesLuminPrivilegeAttribute:
+    nonstatic:
+      m_Privilege: unknown
+  UnityEngine.Internal.DefaultValueAttribute:
+    nonstatic:
+      DefaultValue: unknown
+  UnityEngine.Rendering.AsyncGPUReadbackRequest:
+    nonstatic:
+      m_Ptr: unknown
+      m_Version: unknown
+  UnityEngine.Rendering.AsyncRequestNativeArrayData:
+    nonstatic:
+      nativeArrayBuffer: unknown
+      lengthInBytes: unknown
+  UnityEngine.Rendering.SynchronisationStage:
+    static:
+      VertexProcessing: unknown
+      PixelProcessing: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShaderHardwareTier:
+    static:
+      Tier1: unknown
+      Tier2: unknown
+      Tier3: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.IndexFormat:
+    static:
+      UInt16: unknown
+      UInt32: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.MeshUpdateFlags:
+    static:
+      Default: unknown
+      DontValidateIndices: unknown
+      DontResetBoneBounds: unknown
+      DontNotifyMeshUsers: unknown
+      DontRecalculateBounds: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.VertexAttributeFormat:
+    static:
+      Float32: unknown
+      Float16: unknown
+      UNorm8: unknown
+      SNorm8: unknown
+      UNorm16: unknown
+      SNorm16: unknown
+      UInt8: unknown
+      SInt8: unknown
+      UInt16: unknown
+      SInt16: unknown
+      UInt32: unknown
+      SInt32: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.VertexAttribute:
+    static:
+      Position: unknown
+      Normal: unknown
+      Tangent: unknown
+      Color: unknown
+      TexCoord0: unknown
+      TexCoord1: unknown
+      TexCoord2: unknown
+      TexCoord3: unknown
+      TexCoord4: unknown
+      TexCoord5: unknown
+      TexCoord6: unknown
+      TexCoord7: unknown
+      BlendWeight: unknown
+      BlendIndices: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.OpaqueSortMode:
+    static:
+      Default: unknown
+      FrontToBack: unknown
+      NoDistanceSort: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderQueue:
+    static:
+      Background: unknown
+      Geometry: unknown
+      AlphaTest: unknown
+      GeometryLast: unknown
+      Transparent: unknown
+      Overlay: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderBufferLoadAction:
+    static:
+      Load: unknown
+      Clear: unknown
+      DontCare: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderBufferStoreAction:
+    static:
+      Store: unknown
+      Resolve: unknown
+      StoreAndResolve: unknown
+      DontCare: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BlendMode:
+    static:
+      Zero: unknown
+      One: unknown
+      DstColor: unknown
+      SrcColor: unknown
+      OneMinusDstColor: unknown
+      SrcAlpha: unknown
+      OneMinusSrcColor: unknown
+      DstAlpha: unknown
+      OneMinusDstAlpha: unknown
+      SrcAlphaSaturate: unknown
+      OneMinusSrcAlpha: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BlendOp:
+    static:
+      Add: unknown
+      Subtract: unknown
+      ReverseSubtract: unknown
+      Min: unknown
+      Max: unknown
+      LogicalClear: unknown
+      LogicalSet: unknown
+      LogicalCopy: unknown
+      LogicalCopyInverted: unknown
+      LogicalNoop: unknown
+      LogicalInvert: unknown
+      LogicalAnd: unknown
+      LogicalNand: unknown
+      LogicalOr: unknown
+      LogicalNor: unknown
+      LogicalXor: unknown
+      LogicalEquivalence: unknown
+      LogicalAndReverse: unknown
+      LogicalAndInverted: unknown
+      LogicalOrReverse: unknown
+      LogicalOrInverted: unknown
+      Multiply: unknown
+      Screen: unknown
+      Overlay: unknown
+      Darken: unknown
+      Lighten: unknown
+      ColorDodge: unknown
+      ColorBurn: unknown
+      HardLight: unknown
+      SoftLight: unknown
+      Difference: unknown
+      Exclusion: unknown
+      HSLHue: unknown
+      HSLSaturation: unknown
+      HSLColor: unknown
+      HSLLuminosity: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CompareFunction:
+    static:
+      Disabled: unknown
+      Never: unknown
+      Less: unknown
+      Equal: unknown
+      LessEqual: unknown
+      Greater: unknown
+      NotEqual: unknown
+      GreaterEqual: unknown
+      Always: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CullMode:
+    static:
+      Off: unknown
+      Front: unknown
+      Back: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ColorWriteMask:
+    static:
+      Alpha: unknown
+      Blue: unknown
+      Green: unknown
+      Red: unknown
+      All: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.StencilOp:
+    static:
+      Keep: unknown
+      Zero: unknown
+      Replace: unknown
+      IncrementSaturate: unknown
+      DecrementSaturate: unknown
+      Invert: unknown
+      IncrementWrap: unknown
+      DecrementWrap: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.AmbientMode:
+    static:
+      Skybox: unknown
+      Trilight: unknown
+      Flat: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.DefaultReflectionMode:
+    static:
+      Skybox: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionCubemapCompression:
+    static:
+      Uncompressed: unknown
+      Compressed: unknown
+      Auto: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CameraEvent:
+    static:
+      BeforeDepthTexture: unknown
+      AfterDepthTexture: unknown
+      BeforeDepthNormalsTexture: unknown
+      AfterDepthNormalsTexture: unknown
+      BeforeGBuffer: unknown
+      AfterGBuffer: unknown
+      BeforeLighting: unknown
+      AfterLighting: unknown
+      BeforeFinalPass: unknown
+      AfterFinalPass: unknown
+      BeforeForwardOpaque: unknown
+      AfterForwardOpaque: unknown
+      BeforeImageEffectsOpaque: unknown
+      AfterImageEffectsOpaque: unknown
+      BeforeSkybox: unknown
+      AfterSkybox: unknown
+      BeforeForwardAlpha: unknown
+      AfterForwardAlpha: unknown
+      BeforeImageEffects: unknown
+      AfterImageEffects: unknown
+      AfterEverything: unknown
+      BeforeReflections: unknown
+      AfterReflections: unknown
+      BeforeHaloAndLensFlares: unknown
+      AfterHaloAndLensFlares: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CameraEventUtils:
+    static:
+      k_MinimumValue: unknown
+      k_MaximumValue: unknown
+  UnityEngine.Rendering.LightEvent:
+    static:
+      BeforeShadowMap: unknown
+      AfterShadowMap: unknown
+      BeforeScreenspaceMask: unknown
+      AfterScreenspaceMask: unknown
+      BeforeShadowMapPass: unknown
+      AfterShadowMapPass: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShadowMapPass:
+    static:
+      PointlightPositiveX: unknown
+      PointlightNegativeX: unknown
+      PointlightPositiveY: unknown
+      PointlightNegativeY: unknown
+      PointlightPositiveZ: unknown
+      PointlightNegativeZ: unknown
+      DirectionalCascade0: unknown
+      DirectionalCascade1: unknown
+      DirectionalCascade2: unknown
+      DirectionalCascade3: unknown
+      Spotlight: unknown
+      Pointlight: unknown
+      Directional: unknown
+      All: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BuiltinRenderTextureType:
+    static:
+      PropertyName: unknown
+      BufferPtr: unknown
+      RenderTexture: unknown
+      BindableTexture: unknown
+      None: unknown
+      CurrentActive: unknown
+      CameraTarget: unknown
+      Depth: unknown
+      DepthNormals: unknown
+      ResolvedDepth: unknown
+      PrepassNormalsSpec: unknown
+      PrepassLight: unknown
+      PrepassLightSpec: unknown
+      GBuffer0: unknown
+      GBuffer1: unknown
+      GBuffer2: unknown
+      GBuffer3: unknown
+      Reflections: unknown
+      MotionVectors: unknown
+      GBuffer4: unknown
+      GBuffer5: unknown
+      GBuffer6: unknown
+      GBuffer7: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.PassType:
+    static:
+      Normal: unknown
+      Vertex: unknown
+      VertexLM: unknown
+      VertexLMRGBM: unknown
+      ForwardBase: unknown
+      ForwardAdd: unknown
+      LightPrePassBase: unknown
+      LightPrePassFinal: unknown
+      ShadowCaster: unknown
+      Deferred: unknown
+      Meta: unknown
+      MotionVectors: unknown
+      ScriptableRenderPipeline: unknown
+      ScriptableRenderPipelineDefaultUnlit: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShadowCastingMode:
+    static:
+      Off: unknown
+      On: unknown
+      TwoSided: unknown
+      ShadowsOnly: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.LightShadowResolution:
+    static:
+      FromQualitySettings: unknown
+      Low: unknown
+      Medium: unknown
+      High: unknown
+      VeryHigh: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.GraphicsDeviceType:
+    static:
+      OpenGL2: unknown
+      Direct3D9: unknown
+      Direct3D11: unknown
+      PlayStation3: unknown
+      Null: unknown
+      Xbox360: unknown
+      OpenGLES2: unknown
+      OpenGLES3: unknown
+      PlayStationVita: unknown
+      PlayStation4: unknown
+      XboxOne: unknown
+      PlayStationMobile: unknown
+      Metal: unknown
+      OpenGLCore: unknown
+      Direct3D12: unknown
+      N3DS: unknown
+      Vulkan: unknown
+      Switch: unknown
+      XboxOneD3D12: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.GraphicsTier:
+    static:
+      Tier1: unknown
+      Tier2: unknown
+      Tier3: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SubMeshDescriptor:
+    nonstatic:
+      <bounds>k__BackingField: unknown
+      <topology>k__BackingField: unknown
+      <indexStart>k__BackingField: unknown
+      <indexCount>k__BackingField: unknown
+      <baseVertex>k__BackingField: unknown
+      <firstVertex>k__BackingField: unknown
+      <vertexCount>k__BackingField: unknown
+  UnityEngine.Rendering.VertexAttributeDescriptor:
+    nonstatic:
+      <attribute>k__BackingField: unknown
+      <format>k__BackingField: unknown
+      <dimension>k__BackingField: unknown
+      <stream>k__BackingField: unknown
+  UnityEngine.Rendering.FormatSwizzle:
+    static:
+      FormatSwizzleR: unknown
+      FormatSwizzleG: unknown
+      FormatSwizzleB: unknown
+      FormatSwizzleA: unknown
+      FormatSwizzle0: unknown
+      FormatSwizzle1: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderTargetIdentifier:
+    nonstatic:
+      m_Type: unknown
+      m_NameID: unknown
+      m_InstanceID: unknown
+      m_BufferPointer: unknown
+      m_MipLevel: unknown
+      m_CubeFace: unknown
+      m_DepthSlice: unknown
+  UnityEngine.Rendering.RenderTargetBinding:
+    nonstatic:
+      m_ColorRenderTargets: unknown
+      m_DepthRenderTarget: unknown
+      m_ColorLoadActions: unknown
+      m_ColorStoreActions: unknown
+      m_DepthLoadAction: unknown
+      m_DepthStoreAction: unknown
+  UnityEngine.Rendering.ReflectionProbeUsage:
+    static:
+      Off: unknown
+      BlendProbes: unknown
+      BlendProbesAndSkybox: unknown
+      Simple: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionProbeType:
+    static:
+      Cube: unknown
+      Card: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionProbeClearFlags:
+    static:
+      Skybox: unknown
+      SolidColor: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionProbeMode:
+    static:
+      Baked: unknown
+      Realtime: unknown
+      Custom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionProbeBlendInfo:
+    nonstatic:
+      probe: unknown
+      weight: unknown
+  UnityEngine.Rendering.ReflectionProbeRefreshMode:
+    static:
+      OnAwake: unknown
+      EveryFrame: unknown
+      ViaScripting: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ReflectionProbeTimeSlicingMode:
+    static:
+      AllFacesAtOnce: unknown
+      IndividualFaces: unknown
+      NoTimeSlicing: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShadowSamplingMode:
+    static:
+      CompareDepths: unknown
+      RawDepth: unknown
+      None: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.LightProbeUsage:
+    static:
+      Off: unknown
+      BlendProbes: unknown
+      UseProxyVolume: unknown
+      CustomProvided: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BuiltinShaderType:
+    static:
+      DeferredShading: unknown
+      DeferredReflections: unknown
+      LegacyDeferredLighting: unknown
+      ScreenSpaceShadows: unknown
+      DepthNormals: unknown
+      MotionVectors: unknown
+      LightHalo: unknown
+      LensFlare: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BuiltinShaderMode:
+    static:
+      Disabled: unknown
+      UseBuiltin: unknown
+      UseCustom: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.BuiltinShaderDefine:
+    static:
+      UNITY_NO_DXT5nm: unknown
+      UNITY_NO_RGBM: unknown
+      UNITY_USE_NATIVE_HDR: unknown
+      UNITY_ENABLE_REFLECTION_BUFFERS: unknown
+      UNITY_FRAMEBUFFER_FETCH_AVAILABLE: unknown
+      UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS: unknown
+      UNITY_METAL_SHADOWS_USE_POINT_FILTERING: unknown
+      UNITY_NO_CUBEMAP_ARRAY: unknown
+      UNITY_NO_SCREENSPACE_SHADOWS: unknown
+      UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS: unknown
+      UNITY_PBS_USE_BRDF1: unknown
+      UNITY_PBS_USE_BRDF2: unknown
+      UNITY_PBS_USE_BRDF3: unknown
+      UNITY_NO_FULL_STANDARD_SHADER: unknown
+      UNITY_SPECCUBE_BOX_PROJECTION: unknown
+      UNITY_SPECCUBE_BLENDING: unknown
+      UNITY_ENABLE_DETAIL_NORMALMAP: unknown
+      SHADER_API_MOBILE: unknown
+      SHADER_API_DESKTOP: unknown
+      UNITY_HARDWARE_TIER1: unknown
+      UNITY_HARDWARE_TIER2: unknown
+      UNITY_HARDWARE_TIER3: unknown
+      UNITY_COLORSPACE_GAMMA: unknown
+      UNITY_LIGHT_PROBE_PROXY_VOLUME: unknown
+      UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS: unknown
+      UNITY_LIGHTMAP_DLDR_ENCODING: unknown
+      UNITY_LIGHTMAP_RGBM_ENCODING: unknown
+      UNITY_LIGHTMAP_FULL_HDR: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.TextureDimension:
+    static:
+      Unknown: unknown
+      None: unknown
+      Any: unknown
+      Tex2D: unknown
+      Tex3D: unknown
+      Cube: unknown
+      Tex2DArray: unknown
+      CubeArray: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CopyTextureSupport:
+    static:
+      None: unknown
+      Basic: unknown
+      Copy3D: unknown
+      DifferentTypes: unknown
+      TextureToRT: unknown
+      RTToTexture: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CameraHDRMode:
+    static:
+      FP16: unknown
+      R11G11B10: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RealtimeGICPUUsage:
+    static:
+      Low: unknown
+      Medium: unknown
+      High: unknown
+      Unlimited: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ComputeQueueType:
+    static:
+      Default: unknown
+      Background: unknown
+      Urgent: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SinglePassStereoMode:
+    static:
+      None: unknown
+      SideBySide: unknown
+      Instancing: unknown
+      Multiview: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.CommandBufferExecutionFlags:
+    static:
+      None: unknown
+      AsyncCompute: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderTextureSubElement:
+    static:
+      Color: unknown
+      Depth: unknown
+      Stencil: unknown
+      Default: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderingThreadingMode:
+    static:
+      Direct: unknown
+      SingleThreaded: unknown
+      MultiThreaded: unknown
+      LegacyJobified: unknown
+      NativeGraphicsJobs: unknown
+      NativeGraphicsJobsWithoutRenderThread: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SynchronisationStageFlags:
+    static:
+      VertexProcessing: unknown
+      PixelProcessing: unknown
+      ComputeProcessing: unknown
+      AllGPUOperations: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.GraphicsFenceType:
+    static:
+      AsyncQueueSynchronisation: unknown
+      CPUSynchronisation: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.GraphicsFence:
+    nonstatic:
+      m_Ptr: unknown
+      m_Version: unknown
+      m_FenceType: unknown
+  UnityEngine.Rendering.OnDemandRendering:
+    static:
+      m_RenderFrameInterval: unknown
+  UnityEngine.Rendering.CommandBuffer:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Rendering.SplashScreen+StopBehavior:
+    static:
+      StopImmediate: unknown
+      FadeOut: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SphericalHarmonicsL2:
+    nonstatic:
+      shr0: unknown
+      shr1: unknown
+      shr2: unknown
+      shr3: unknown
+      shr4: unknown
+      shr5: unknown
+      shr6: unknown
+      shr7: unknown
+      shr8: unknown
+      shg0: unknown
+      shg1: unknown
+      shg2: unknown
+      shg3: unknown
+      shg4: unknown
+      shg5: unknown
+      shg6: unknown
+      shg7: unknown
+      shg8: unknown
+      shb0: unknown
+      shb1: unknown
+      shb2: unknown
+      shb3: unknown
+      shb4: unknown
+      shb5: unknown
+      shb6: unknown
+      shb7: unknown
+      shb8: unknown
+  UnityEngine.Rendering.BatchVisibility:
+    nonstatic:
+      offset: unknown
+      instancesCount: unknown
+      visibleCount: unknown
+  UnityEngine.Rendering.BatchCullingContext:
+    nonstatic:
+      cullingPlanes: unknown
+      batchVisibility: unknown
+      visibleIndices: unknown
+      lodParameters: unknown
+  UnityEngine.Rendering.BatchRendererCullingOutput:
+    nonstatic:
+      cullingJobsFence: unknown
+      cullingPlanes: unknown
+      batchVisibility: unknown
+      visibleIndices: unknown
+      cullingPlanesCount: unknown
+      batchVisibilityCount: unknown
+      visibleIndicesCount: unknown
+  UnityEngine.Rendering.BatchRendererGroup:
+    nonstatic:
+      m_GroupHandle: unknown
+      m_PerformCulling: unknown
+  UnityEngine.Rendering.AttachmentDescriptor:
+    nonstatic:
+      m_LoadAction: unknown
+      m_StoreAction: unknown
+      m_Format: unknown
+      m_LoadStoreTarget: unknown
+      m_ResolveTarget: unknown
+      m_ClearColor: unknown
+      m_ClearDepth: unknown
+      m_ClearStencil: unknown
+  UnityEngine.Rendering.BlendState:
+    nonstatic:
+      m_BlendState0: unknown
+      m_BlendState1: unknown
+      m_BlendState2: unknown
+      m_BlendState3: unknown
+      m_BlendState4: unknown
+      m_BlendState5: unknown
+      m_BlendState6: unknown
+      m_BlendState7: unknown
+      m_SeparateMRTBlendStates: unknown
+      m_AlphaToMask: unknown
+      m_Padding: unknown
+  UnityEngine.Rendering.CoreCameraValues:
+    nonstatic:
+      filterMode: unknown
+      cullingMask: unknown
+      instanceID: unknown
+      renderImmediateObjects: unknown
+  UnityEngine.Rendering.CameraProperties:
+    static:
+      k_NumLayers: unknown
+      k_PlaneCount: unknown
+    nonstatic:
+      screenRect: unknown
+      viewDir: unknown
+      projectionNear: unknown
+      projectionFar: unknown
+      cameraNear: unknown
+      cameraFar: unknown
+      cameraAspect: unknown
+      cameraToWorld: unknown
+      actualWorldToClip: unknown
+      cameraClipToWorld: unknown
+      cameraWorldToClip: unknown
+      implicitProjection: unknown
+      stereoWorldToClipLeft: unknown
+      stereoWorldToClipRight: unknown
+      worldToCamera: unknown
+      up: unknown
+      right: unknown
+      transformDirection: unknown
+      cameraEuler: unknown
+      velocity: unknown
+      farPlaneWorldSpaceLength: unknown
+      rendererCount: unknown
+      m_ShadowCullPlanes: unknown
+      m_CameraCullPlanes: unknown
+      baseFarDistance: unknown
+      shadowCullCenter: unknown
+      layerCullDistances: unknown
+      layerCullSpherical: unknown
+      coreCameraValues: unknown
+      cameraType: unknown
+      projectionIsOblique: unknown
+      isImplicitProjectionMatrix: unknown
+  UnityEngine.Rendering.CameraProperties+<m_ShadowCullPlanes>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.CameraProperties+<m_CameraCullPlanes>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.CameraProperties+<layerCullDistances>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.CullingOptions:
+    static:
+      None: unknown
+      ForceEvenIfCameraIsNotActive: unknown
+      OcclusionCull: unknown
+      NeedsLighting: unknown
+      NeedsReflectionProbes: unknown
+      Stereo: unknown
+      DisablePerObjectCulling: unknown
+      ShadowCasters: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ScriptableCullingParameters:
+    static:
+      k_MaximumCullingPlaneCount: unknown
+      maximumCullingPlaneCount: unknown
+      k_LayerCount: unknown
+      layerCount: unknown
+      k_CullingJobCountLowerLimit: unknown
+      k_CullingJobCountUpperLimit: unknown
+    nonstatic:
+      m_IsOrthographic: unknown
+      m_LODParameters: unknown
+      m_CullingPlanes: unknown
+      m_CullingPlaneCount: unknown
+      m_CullingMask: unknown
+      m_SceneMask: unknown
+      m_LayerFarCullDistances: unknown
+      m_LayerCull: unknown
+      m_CullingMatrix: unknown
+      m_Origin: unknown
+      m_ShadowDistance: unknown
+      m_CullingOptions: unknown
+      m_ReflectionProbeSortingCriteria: unknown
+      m_CameraProperties: unknown
+      m_AccurateOcclusionThreshold: unknown
+      m_MaximumPortalCullingJobs: unknown
+      m_StereoViewMatrix: unknown
+      m_StereoProjectionMatrix: unknown
+      m_StereoSeparationDistance: unknown
+      m_maximumVisibleLights: unknown
+  UnityEngine.Rendering.ScriptableCullingParameters+<m_CullingPlanes>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.CullingResults:
+    nonstatic:
+      ptr: unknown
+      m_AllocationInfo: unknown
+  UnityEngine.Rendering.CullingAllocationInfo:
+    nonstatic:
+      visibleLightsPtr: unknown
+      visibleOffscreenVertexLightsPtr: unknown
+      visibleReflectionProbesPtr: unknown
+      visibleLightCount: unknown
+      visibleOffscreenVertexLightCount: unknown
+      visibleReflectionProbeCount: unknown
+  UnityEngine.Rendering.DepthState:
+    nonstatic:
+      m_WriteEnabled: unknown
+      m_CompareFunction: unknown
+  UnityEngine.Rendering.DrawingSettings:
+    static:
+      kMaxShaderPasses: unknown
+      maxShaderPasses: unknown
+    nonstatic:
+      m_SortingSettings: unknown
+      shaderPassNames: unknown
+      m_PerObjectData: unknown
+      m_Flags: unknown
+      m_OverrideMaterialInstanceId: unknown
+      m_OverrideMaterialPassIndex: unknown
+      m_MainLightIndex: unknown
+      m_UseSrpBatcher: unknown
+  UnityEngine.Rendering.DrawingSettings+<shaderPassNames>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.DrawRendererFlags:
+    static:
+      None: unknown
+      EnableDynamicBatching: unknown
+      EnableInstancing: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.FilteringSettings:
+    nonstatic:
+      m_RenderQueueRange: unknown
+      m_LayerMask: unknown
+      m_RenderingLayerMask: unknown
+      m_ExcludeMotionVectorObjects: unknown
+      m_SortingLayerRange: unknown
+  UnityEngine.Rendering.GizmoSubset:
+    static:
+      PreImageEffects: unknown
+      PostImageEffects: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.LODParameters:
+    nonstatic:
+      m_IsOrthographic: unknown
+      m_CameraPosition: unknown
+      m_FieldOfView: unknown
+      m_OrthoSize: unknown
+      m_CameraPixelHeight: unknown
+  UnityEngine.Rendering.PerObjectData:
+    static:
+      None: unknown
+      LightProbe: unknown
+      ReflectionProbes: unknown
+      LightProbeProxyVolume: unknown
+      Lightmaps: unknown
+      LightData: unknown
+      MotionVectors: unknown
+      LightIndices: unknown
+      ReflectionProbeData: unknown
+      OcclusionProbe: unknown
+      OcclusionProbeProxyVolume: unknown
+      ShadowMask: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RasterState:
+    static:
+      defaultValue: unknown
+    nonstatic:
+      m_CullingMode: unknown
+      m_OffsetUnits: unknown
+      m_OffsetFactor: unknown
+      m_DepthClip: unknown
+      m_Padding1: unknown
+      m_Padding2: unknown
+      m_Padding3: unknown
+  UnityEngine.Rendering.ReflectionProbeSortingCriteria:
+    static:
+      None: unknown
+      Importance: unknown
+      Size: unknown
+      ImportanceThenSize: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderPipeline:
+    nonstatic:
+      <disposed>k__BackingField: unknown
+  UnityEngine.Rendering.RenderPipelineManager:
+    static:
+      s_CurrentPipelineAsset: unknown
+      s_Cameras: unknown
+      s_CameraCapacity: unknown
+      <currentPipeline>k__BackingField: unknown
+      beginFrameRendering: unknown
+      beginCameraRendering: unknown
+      endFrameRendering: unknown
+      endCameraRendering: unknown
+  UnityEngine.Rendering.RenderQueueRange:
+    static:
+      k_MinimumBound: unknown
+      minimumBound: unknown
+      k_MaximumBound: unknown
+      maximumBound: unknown
+    nonstatic:
+      m_LowerBound: unknown
+      m_UpperBound: unknown
+  UnityEngine.Rendering.RenderStateBlock:
+    nonstatic:
+      m_BlendState: unknown
+      m_RasterState: unknown
+      m_DepthState: unknown
+      m_StencilState: unknown
+      m_StencilReference: unknown
+      m_Mask: unknown
+  UnityEngine.Rendering.RenderStateMask:
+    static:
+      Nothing: unknown
+      Blend: unknown
+      Raster: unknown
+      Depth: unknown
+      Stencil: unknown
+      Everything: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.RenderTargetBlendState:
+    nonstatic:
+      m_WriteMask: unknown
+      m_SourceColorBlendMode: unknown
+      m_DestinationColorBlendMode: unknown
+      m_SourceAlphaBlendMode: unknown
+      m_DestinationAlphaBlendMode: unknown
+      m_ColorBlendOperation: unknown
+      m_AlphaBlendOperation: unknown
+      m_Padding: unknown
+  UnityEngine.Rendering.ScopedRenderPass:
+    nonstatic:
+      m_Context: unknown
+  UnityEngine.Rendering.ScopedSubPass:
+    nonstatic:
+      m_Context: unknown
+  UnityEngine.Rendering.ScriptableRenderContext:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Rendering.ShaderTagId:
+    static:
+      none: unknown
+    nonstatic:
+      m_Id: unknown
+  UnityEngine.Rendering.ShadowDrawingSettings:
+    nonstatic:
+      m_CullingResults: unknown
+      m_LightIndex: unknown
+      m_UseRenderingLayerMaskTest: unknown
+      m_SplitData: unknown
+  UnityEngine.Rendering.ShadowSplitData:
+    static:
+      k_MaximumCullingPlaneCount: unknown
+      maximumCullingPlaneCount: unknown
+    nonstatic:
+      m_CullingPlaneCount: unknown
+      m_CullingPlanes: unknown
+      m_CullingSphere: unknown
+      m_ShadowCascadeBlendCullingFactor: unknown
+  UnityEngine.Rendering.ShadowSplitData+<m_CullingPlanes>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.SortingCriteria:
+    static:
+      None: unknown
+      SortingLayer: unknown
+      RenderQueue: unknown
+      BackToFront: unknown
+      QuantizedFrontToBack: unknown
+      OptimizeStateChanges: unknown
+      CanvasOrder: unknown
+      RendererPriority: unknown
+      CommonOpaque: unknown
+      CommonTransparent: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SortingLayerRange:
+    nonstatic:
+      m_LowerBound: unknown
+      m_UpperBound: unknown
+  UnityEngine.Rendering.DistanceMetric:
+    static:
+      Perspective: unknown
+      Orthographic: unknown
+      CustomAxis: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SortingSettings:
+    nonstatic:
+      m_WorldToCameraMatrix: unknown
+      m_CameraPosition: unknown
+      m_CustomAxis: unknown
+      m_Criteria: unknown
+      m_DistanceMetric: unknown
+      m_PreviousVPMatrix: unknown
+      m_NonJitteredVPMatrix: unknown
+  UnityEngine.Rendering.StencilState:
+    nonstatic:
+      m_Enabled: unknown
+      m_ReadMask: unknown
+      m_WriteMask: unknown
+      m_Padding: unknown
+      m_CompareFunctionFront: unknown
+      m_PassOperationFront: unknown
+      m_FailOperationFront: unknown
+      m_ZFailOperationFront: unknown
+      m_CompareFunctionBack: unknown
+      m_PassOperationBack: unknown
+      m_FailOperationBack: unknown
+      m_ZFailOperationBack: unknown
+  UnityEngine.Rendering.SupportedRenderingFeatures:
+    static:
+      s_Active: unknown
+    nonstatic:
+      <reflectionProbeModes>k__BackingField: unknown
+      <defaultMixedLightingModes>k__BackingField: unknown
+      <mixedLightingModes>k__BackingField: unknown
+      <lightmapBakeTypes>k__BackingField: unknown
+      <lightmapsModes>k__BackingField: unknown
+      <enlighten>k__BackingField: unknown
+      <lightProbeProxyVolumes>k__BackingField: unknown
+      <motionVectors>k__BackingField: unknown
+      <receiveShadows>k__BackingField: unknown
+      <reflectionProbes>k__BackingField: unknown
+      <rendererPriority>k__BackingField: unknown
+      <terrainDetailUnsupported>k__BackingField: unknown
+      <overridesEnvironmentLighting>k__BackingField: unknown
+      <overridesFog>k__BackingField: unknown
+      <overridesOtherLightingSettings>k__BackingField: unknown
+      <editableMaterialRenderQueue>k__BackingField: unknown
+      <overridesLODBias>k__BackingField: unknown
+      <overridesMaximumLODLevel>k__BackingField: unknown
+  UnityEngine.Rendering.SupportedRenderingFeatures+ReflectionProbeModes:
+    static:
+      None: unknown
+      Rotation: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.SupportedRenderingFeatures+LightmapMixedBakeModes:
+    static:
+      None: unknown
+      IndirectOnly: unknown
+      Subtractive: unknown
+      Shadowmask: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.VisibleLight:
+    nonstatic:
+      m_LightType: unknown
+      m_FinalColor: unknown
+      m_ScreenRect: unknown
+      m_LocalToWorldMatrix: unknown
+      m_Range: unknown
+      m_SpotAngle: unknown
+      m_InstanceId: unknown
+      m_Flags: unknown
+  UnityEngine.Rendering.VisibleLightFlags:
+    static:
+      IntersectsNearPlane: unknown
+      IntersectsFarPlane: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.VisibleReflectionProbe:
+    nonstatic:
+      m_Bounds: unknown
+      m_LocalToWorldMatrix: unknown
+      m_HdrData: unknown
+      m_Center: unknown
+      m_BlendDistance: unknown
+      m_Importance: unknown
+      m_BoxProjection: unknown
+      m_InstanceId: unknown
+      m_TextureId: unknown
+  UnityEngine.Rendering.PlatformKeywordSet:
+    static:
+      k_SizeInBits: unknown
+    nonstatic:
+      m_Bits: unknown
+  UnityEngine.Rendering.ShaderKeywordType:
+    static:
+      None: unknown
+      BuiltinDefault: unknown
+      BuiltinExtra: unknown
+      BuiltinAutoStripped: unknown
+      UserDefined: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShaderKeyword:
+    static:
+      k_MaxShaderKeywords: unknown
+      k_InvalidKeyword: unknown
+    nonstatic:
+      m_KeywordIndex: unknown
+  UnityEngine.Rendering.ShaderKeywordSet:
+    static:
+      k_SizeInBits: unknown
+    nonstatic:
+      m_Bits: unknown
+  UnityEngine.Rendering.ShaderKeywordSet+<m_Bits>e__FixedBuffer:
+    nonstatic:
+      FixedElementField: unknown
+  UnityEngine.Rendering.ShaderPropertyType:
+    static:
+      Color: unknown
+      Vector: unknown
+      Float: unknown
+      Range: unknown
+      Texture: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Rendering.ShaderPropertyFlags:
+    static:
+      None: unknown
+      HideInInspector: unknown
+      PerRendererData: unknown
+      NoScaleOffset: unknown
+      Normal: unknown
+      HDR: unknown
+      Gamma: unknown
+      NonModifiableTextureData: unknown
+      MainTexture: unknown
+      MainColor: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.FrameData:
+    nonstatic:
+      m_FrameID: unknown
+      m_DeltaTime: unknown
+      m_Weight: unknown
+      m_EffectiveWeight: unknown
+      m_EffectiveParentDelay: unknown
+      m_EffectiveParentSpeed: unknown
+      m_EffectiveSpeed: unknown
+      m_Flags: unknown
+      m_Output: unknown
+  UnityEngine.Playables.FrameData+Flags:
+    static:
+      Evaluate: unknown
+      SeekOccured: unknown
+      Loop: unknown
+      Hold: unknown
+      EffectivePlayStateDelayed: unknown
+      EffectivePlayStatePlaying: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.FrameData+EvaluationType:
+    static:
+      Evaluate: unknown
+      Playback: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.Notification:
+    nonstatic:
+      <id>k__BackingField: unknown
+  UnityEngine.Playables.DirectorWrapMode:
+    static:
+      Hold: unknown
+      Loop: unknown
+      None: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.Playable:
+    static:
+      m_NullPlayable: unknown
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Playables.DataStreamType:
+    static:
+      Animation: unknown
+      Audio: unknown
+      Texture: unknown
+      None: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.PlayableBinding:
+    static:
+      None: unknown
+      DefaultDuration: unknown
+    nonstatic:
+      m_StreamName: unknown
+      m_SourceObject: unknown
+      m_SourceBindingType: unknown
+      m_CreateOutputMethod: unknown
+  UnityEngine.Playables.PlayableTraversalMode:
+    static:
+      Mix: unknown
+      Passthrough: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.DirectorUpdateMode:
+    static:
+      DSPClock: unknown
+      GameTime: unknown
+      UnscaledGameTime: unknown
+      Manual: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.PlayableGraph:
+    nonstatic:
+      m_Handle: unknown
+      m_Version: unknown
+  UnityEngine.Playables.PlayState:
+    static:
+      Paused: unknown
+      Playing: unknown
+      Delayed: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Playables.PlayableHandle:
+    static:
+      m_Null: unknown
+    nonstatic:
+      m_Handle: unknown
+      m_Version: unknown
+  UnityEngine.Playables.PlayableOutput:
+    static:
+      m_NullPlayableOutput: unknown
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Playables.PlayableOutputHandle:
+    static:
+      m_Null: unknown
+    nonstatic:
+      m_Handle: unknown
+      m_Version: unknown
+  UnityEngine.Playables.ScriptPlayable`1:
+    static:
+      m_NullPlayable: unknown
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Playables.ScriptPlayableOutput:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Diagnostics.ForcedCrashCategory:
+    static:
+      AccessViolation: unknown
+      FatalError: unknown
+      Abort: unknown
+      PureVirtualFunction: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.U2D.SpriteIntermediateRendererInfo:
+    nonstatic:
+      SpriteID: unknown
+      TextureID: unknown
+      MaterialID: unknown
+      Color: unknown
+      Transform: unknown
+      Bounds: unknown
+      Layer: unknown
+      SortingLayer: unknown
+      SortingOrder: unknown
+      SceneCullingMask: unknown
+      IndexData: unknown
+      VertexData: unknown
+      IndexCount: unknown
+      VertexCount: unknown
+      ShaderChannelMask: unknown
+  UnityEngine.Experimental.Networking.PlayerConnection.ConnectionTarget:
+    static:
+      None: unknown
+      Player: unknown
+      Editor: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.GlobalIllumination.LightType:
+    static:
+      Directional: unknown
+      Point: unknown
+      Spot: unknown
+      Rectangle: unknown
+      Disc: unknown
+      SpotPyramidShape: unknown
+      SpotBoxShape: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.GlobalIllumination.LightMode:
+    static:
+      Realtime: unknown
+      Mixed: unknown
+      Baked: unknown
+      Unknown: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.GlobalIllumination.FalloffType:
+    static:
+      InverseSquared: unknown
+      InverseSquaredNoRangeAttenuation: unknown
+      Linear: unknown
+      Legacy: unknown
+      Undefined: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.GlobalIllumination.AngularFalloffType:
+    static:
+      LUT: unknown
+      AnalyticAndInnerAngle: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.GlobalIllumination.LinearColor:
+    nonstatic:
+      m_red: unknown
+      m_green: unknown
+      m_blue: unknown
+      m_intensity: unknown
+  UnityEngine.Experimental.GlobalIllumination.DirectionalLight:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      direction: unknown
+      color: unknown
+      indirectColor: unknown
+      penumbraWidthRadian: unknown
+  UnityEngine.Experimental.GlobalIllumination.PointLight:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      sphereRadius: unknown
+      falloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.SpotLight:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      orientation: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      sphereRadius: unknown
+      coneAngle: unknown
+      innerConeAngle: unknown
+      falloff: unknown
+      angularFalloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.RectangleLight:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      orientation: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      width: unknown
+      height: unknown
+      falloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.DiscLight:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      orientation: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      radius: unknown
+      falloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.SpotLightBoxShape:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      orientation: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      width: unknown
+      height: unknown
+  UnityEngine.Experimental.GlobalIllumination.SpotLightPyramidShape:
+    nonstatic:
+      instanceID: unknown
+      shadow: unknown
+      mode: unknown
+      position: unknown
+      orientation: unknown
+      color: unknown
+      indirectColor: unknown
+      range: unknown
+      angle: unknown
+      aspectRatio: unknown
+      falloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.LightDataGI:
+    nonstatic:
+      instanceID: unknown
+      color: unknown
+      indirectColor: unknown
+      orientation: unknown
+      position: unknown
+      range: unknown
+      coneAngle: unknown
+      innerConeAngle: unknown
+      shape0: unknown
+      shape1: unknown
+      type: unknown
+      mode: unknown
+      shadow: unknown
+      falloff: unknown
+  UnityEngine.Experimental.GlobalIllumination.Lightmapping:
+    static:
+      s_DefaultDelegate: unknown
+      s_RequestLightsDelegate: unknown
+  UnityEngine.Experimental.GlobalIllumination.Lightmapping+<>c:
+    static:
+      <>9: unknown
+  UnityEngine.Experimental.Playables.CameraPlayable:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Experimental.Playables.MaterialEffectPlayable:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Experimental.Playables.TextureMixerPlayable:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Experimental.Playables.TexturePlayableOutput:
+    nonstatic:
+      m_Handle: unknown
+  UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings:
+    static:
+      s_Instance: unknown
+  UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:
+    nonstatic:
+      <implementation>k__BackingField: unknown
+  UnityEngine.Experimental.Rendering.WaitForPresentSyncPoint:
+    static:
+      BeginFrame: unknown
+      EndFrame: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.GraphicsJobsSyncPoint:
+    static:
+      EndOfFrame: unknown
+      AfterScriptUpdate: unknown
+      AfterScriptLateUpdate: unknown
+      WaitForPresent: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.TextureCreationFlags:
+    static:
+      None: unknown
+      MipChain: unknown
+      Crunch: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.FormatUsage:
+    static:
+      Sample: unknown
+      Linear: unknown
+      Sparse: unknown
+      Render: unknown
+      Blend: unknown
+      GetPixels: unknown
+      SetPixels: unknown
+      SetPixels32: unknown
+      ReadPixels: unknown
+      LoadStore: unknown
+      MSAA2x: unknown
+      MSAA4x: unknown
+      MSAA8x: unknown
+      StencilSampling: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.DefaultFormat:
+    static:
+      LDR: unknown
+      HDR: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.GraphicsFormat:
+    static:
+      None: unknown
+      R8_SRGB: unknown
+      R8G8_SRGB: unknown
+      R8G8B8_SRGB: unknown
+      R8G8B8A8_SRGB: unknown
+      R8_UNorm: unknown
+      R8G8_UNorm: unknown
+      R8G8B8_UNorm: unknown
+      R8G8B8A8_UNorm: unknown
+      R8_SNorm: unknown
+      R8G8_SNorm: unknown
+      R8G8B8_SNorm: unknown
+      R8G8B8A8_SNorm: unknown
+      R8_UInt: unknown
+      R8G8_UInt: unknown
+      R8G8B8_UInt: unknown
+      R8G8B8A8_UInt: unknown
+      R8_SInt: unknown
+      R8G8_SInt: unknown
+      R8G8B8_SInt: unknown
+      R8G8B8A8_SInt: unknown
+      R16_UNorm: unknown
+      R16G16_UNorm: unknown
+      R16G16B16_UNorm: unknown
+      R16G16B16A16_UNorm: unknown
+      R16_SNorm: unknown
+      R16G16_SNorm: unknown
+      R16G16B16_SNorm: unknown
+      R16G16B16A16_SNorm: unknown
+      R16_UInt: unknown
+      R16G16_UInt: unknown
+      R16G16B16_UInt: unknown
+      R16G16B16A16_UInt: unknown
+      R16_SInt: unknown
+      R16G16_SInt: unknown
+      R16G16B16_SInt: unknown
+      R16G16B16A16_SInt: unknown
+      R32_UInt: unknown
+      R32G32_UInt: unknown
+      R32G32B32_UInt: unknown
+      R32G32B32A32_UInt: unknown
+      R32_SInt: unknown
+      R32G32_SInt: unknown
+      R32G32B32_SInt: unknown
+      R32G32B32A32_SInt: unknown
+      R16_SFloat: unknown
+      R16G16_SFloat: unknown
+      R16G16B16_SFloat: unknown
+      R16G16B16A16_SFloat: unknown
+      R32_SFloat: unknown
+      R32G32_SFloat: unknown
+      R32G32B32_SFloat: unknown
+      R32G32B32A32_SFloat: unknown
+      B8G8R8_SRGB: unknown
+      B8G8R8A8_SRGB: unknown
+      B8G8R8_UNorm: unknown
+      B8G8R8A8_UNorm: unknown
+      B8G8R8_SNorm: unknown
+      B8G8R8A8_SNorm: unknown
+      B8G8R8_UInt: unknown
+      B8G8R8A8_UInt: unknown
+      B8G8R8_SInt: unknown
+      B8G8R8A8_SInt: unknown
+      R4G4B4A4_UNormPack16: unknown
+      B4G4R4A4_UNormPack16: unknown
+      R5G6B5_UNormPack16: unknown
+      B5G6R5_UNormPack16: unknown
+      R5G5B5A1_UNormPack16: unknown
+      B5G5R5A1_UNormPack16: unknown
+      A1R5G5B5_UNormPack16: unknown
+      E5B9G9R9_UFloatPack32: unknown
+      B10G11R11_UFloatPack32: unknown
+      A2B10G10R10_UNormPack32: unknown
+      A2B10G10R10_UIntPack32: unknown
+      A2B10G10R10_SIntPack32: unknown
+      A2R10G10B10_UNormPack32: unknown
+      A2R10G10B10_UIntPack32: unknown
+      A2R10G10B10_SIntPack32: unknown
+      A2R10G10B10_XRSRGBPack32: unknown
+      A2R10G10B10_XRUNormPack32: unknown
+      R10G10B10_XRSRGBPack32: unknown
+      R10G10B10_XRUNormPack32: unknown
+      A10R10G10B10_XRSRGBPack32: unknown
+      A10R10G10B10_XRUNormPack32: unknown
+      RGB_DXT1_SRGB: unknown
+      RGBA_DXT1_SRGB: unknown
+      RGB_DXT1_UNorm: unknown
+      RGBA_DXT1_UNorm: unknown
+      RGBA_DXT3_SRGB: unknown
+      RGBA_DXT3_UNorm: unknown
+      RGBA_DXT5_SRGB: unknown
+      RGBA_DXT5_UNorm: unknown
+      R_BC4_UNorm: unknown
+      R_BC4_SNorm: unknown
+      RG_BC5_UNorm: unknown
+      RG_BC5_SNorm: unknown
+      RGB_BC6H_UFloat: unknown
+      RGB_BC6H_SFloat: unknown
+      RGBA_BC7_SRGB: unknown
+      RGBA_BC7_UNorm: unknown
+      RGB_PVRTC_2Bpp_SRGB: unknown
+      RGB_PVRTC_2Bpp_UNorm: unknown
+      RGB_PVRTC_4Bpp_SRGB: unknown
+      RGB_PVRTC_4Bpp_UNorm: unknown
+      RGBA_PVRTC_2Bpp_SRGB: unknown
+      RGBA_PVRTC_2Bpp_UNorm: unknown
+      RGBA_PVRTC_4Bpp_SRGB: unknown
+      RGBA_PVRTC_4Bpp_UNorm: unknown
+      RGB_ETC_UNorm: unknown
+      RGB_ETC2_SRGB: unknown
+      RGB_ETC2_UNorm: unknown
+      RGB_A1_ETC2_SRGB: unknown
+      RGB_A1_ETC2_UNorm: unknown
+      RGBA_ETC2_SRGB: unknown
+      RGBA_ETC2_UNorm: unknown
+      R_EAC_UNorm: unknown
+      R_EAC_SNorm: unknown
+      RG_EAC_UNorm: unknown
+      RG_EAC_SNorm: unknown
+      RGBA_ASTC4X4_SRGB: unknown
+      RGBA_ASTC4X4_UNorm: unknown
+      RGBA_ASTC5X5_SRGB: unknown
+      RGBA_ASTC5X5_UNorm: unknown
+      RGBA_ASTC6X6_SRGB: unknown
+      RGBA_ASTC6X6_UNorm: unknown
+      RGBA_ASTC8X8_SRGB: unknown
+      RGBA_ASTC8X8_UNorm: unknown
+      RGBA_ASTC10X10_SRGB: unknown
+      RGBA_ASTC10X10_UNorm: unknown
+      RGBA_ASTC12X12_SRGB: unknown
+      RGBA_ASTC12X12_UNorm: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.RayTracingMode:
+    static:
+      Off: unknown
+      Static: unknown
+      DynamicTransform: unknown
+      DynamicGeometry: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure:
+    nonstatic:
+      m_Ptr: unknown
+  UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RayTracingModeMask:
+    static:
+      Nothing: unknown
+      Static: unknown
+      DynamicTransform: unknown
+      DynamicGeometry: unknown
+      Everything: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+ManagementMode:
+    static:
+      Manual: unknown
+      Automatic: unknown
+    nonstatic:
+      value__: unknown
+  UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings:
+    nonstatic:
+      managementMode: unknown
+      rayTracingModeMask: unknown
+      layerMask: unknown
+  UnityEngine.Experimental.Rendering.ShaderWarmupSetup:
+    nonstatic:
+      vdecl: unknown
+  UnityEngine.Assertions.Assert:
+    static:
+      UNITY_ASSERTIONS: unknown
+      raiseExceptions: unknown
+  UnityEngine.Assertions.AssertionException:
+    nonstatic:
+      m_UserMessage: unknown
+  UnityEngine.Assertions.AssertionMessageUtil:
+    static:
+      k_Expected: unknown
+      k_AssertionFailed: unknown
+  UnityEngine.Assertions.Comparers.FloatComparer:
+    static:
+      s_ComparerWithDefaultTolerance: unknown
+      kEpsilon: unknown
+    nonstatic:
+      m_Error: unknown
+      m_Relative: unknown
+  UnityEngine.Android.Permission:
+    static:
+      Camera: unknown
+      Microphone: unknown
+      FineLocation: unknown
+      CoarseLocation: unknown
+      ExternalStorageRead: unknown
+      ExternalStorageWrite: unknown
+  UnityEngine.TestTools.CoveredSequencePoint:
+    nonstatic:
+      method: unknown
+      ilOffset: unknown
+      hitCount: unknown
+      filename: unknown
+      line: unknown
+      column: unknown
+  UnityEngine.TestTools.CoveredMethodStats:
+    nonstatic:
+      method: unknown
+      totalSequencePoints: unknown
+      uncoveredSequencePoints: unknown
